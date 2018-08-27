@@ -7401,6 +7401,33 @@
       <option name="placement" value="sz Sea of Rhûn:dromund" count="1" />
       <option name="uses" value="1" />
     </attachment>
+    <!--VICTORY-->
+    <attachment name="conditionAttachment_Evil_All_Capitals" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Barad-dûr:City of Corsairs:Isengard:Moria:Carn Dûm:Dol Guldur:Dorwinion" count="7" />
+    </attachment>
+    <attachment name="conditionAttachment_Evil_Capital_Victory" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Minas Tirith:Edoras:Caras Galadhon:Rivendell:Annúminas:Bree:Erebor:Elvenkings Halls:Esgaroth" count="4" />
+    </attachment>
+    <attachment name="conditionAttachment_Good_All_Capitals" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Minas Tirith:Edoras:Caras Galadhon:Rivendell:Annúminas:Bree:Erebor:Elvenkings Halls:Esgaroth" count="9" />
+    </attachment>
+    <attachment name="conditionAttachment_Good_Capital_Victory" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Barad-dûr:City of Corsairs:Isengard:Moria:Carn Dûm:Dol Guldur:Dorwinion" count="3" />
+    </attachment>
+    <attachment name="triggerAttachmentRhun_Evil_Capital_Victory" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_Evil_All_Capitals:conditionAttachment_Evil_Capital_Victory:conditionAttachment_noFFA" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="victory" value="EVIL_CAPITAL_VICTORY" />
+      <option name="players" value="Mordor:Saruman:DolGuldur:Rhun:Orcs:Angmar:Harad" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentRhun_Good_Capital_Victory" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_Good_All_Capitals:conditionAttachment_Good_Capital_Victory:conditionAttachment_noFFA" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="victory" value="GOOD_CAPITAL_VICTORY" />
+      <option name="players" value="Gondor:Rohan:Lorien:Freefolk:HighElves:Arnor:Northmen:Dwarves:WoodlandRealm" />
+      <option name="uses" value="1" />
+    </attachment>
     <attachment name="rulesAttachment" attachTo="Dwarves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="unlimitedProduction" value="true" />
     </attachment>
@@ -8654,7 +8681,7 @@
     <property name="Transport Restricted Unload" value="false" editable="false">
       <boolean />
     </property>
-    <property name="Ignore Transport In Movement" value="true" editable="false">
+    <property name="Ignore Transport In Movement" value="false" editable="false">
       <boolean />
     </property>
     <property name="Transport Casualties Restricted" value="false" editable="false">
@@ -8883,6 +8910,10 @@
 			<li><b>Buildable Fortress:</b> (Default OFF) If turned on, <i>fortresses</i> can be built by factions who can be plausibly assumed to have posessed the skill and technology required to construct fortresses in the lore.</li>
 			<li><b>Sea Units:</b> (Default ON) If turned off, naval units are entirely removed from the game.</li>
 		</ul>
+		
+		<h1>Victory</h1>
+		<p>Evil achieves victory by controlling all Evil capitals and at least 4 Good capitals. Good achieves victory by controlling all Good capitals and at least 3 Evil capitals. Practically, the game will be over long before this happens in most cases.</p>
+		<p>Aside from counting towards victory, capitals have no special role. (You keep your PUs, can still collect PUs, can produce, etc.)</p>
 		
 		<h1>Placement</h1>
 		<p>Units can usually only be placed on settlements. Settlements can produce units without the need for factories up to the Unit Production value of the territory, a number represented by an anvil on the map. Unit Production value is 8 for capitals, 5 for other major settlements, 3 otherwise. <i>Fortress</i> and <i>ancient tower</i> units can also produce 1 unit outside of settlements. Sea-going naval units (<i>dromunds</i> and <i>black ships</i>) can be placed on water territories next to settlements.</p>
