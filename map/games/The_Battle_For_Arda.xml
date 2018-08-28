@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd"[]>
 <game>
-  <info name="Middle Earth - The Battle for Arda" version="2.0.4" />
+  <info name="Middle Earth - Battle for Arda" version="2.0.4" />
   <loader javaClass="games.strategy.triplea.TripleA" />
   <triplea minimumVersion="1.9" />
   <diceSides value="12" />
