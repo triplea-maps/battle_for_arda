@@ -2174,7 +2174,7 @@
 				<result resourceOrUnit="crebain" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_wizard">
-				<cost resource="PUs" quantity="14" />
+				<cost resource="PUs" quantity="20" />
 				<result resourceOrUnit="wizard" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_fire_of_orthanc">
@@ -2408,15 +2408,15 @@
 				<result resourceOrUnit="troll" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_nazgul">
-				<cost resource="PUs" quantity="15" />
+				<cost resource="PUs" quantity="18" />
 				<result resourceOrUnit="nazgul" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_winged_nazgul">
-				<cost resource="PUs" quantity="28" />
+				<cost resource="PUs" quantity="30" />
 				<result resourceOrUnit="winged_nazgul" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_balrog">
-				<cost resource="PUs" quantity="33" />
+				<cost resource="PUs" quantity="40" />
 				<result resourceOrUnit="balrog" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_dragon">
@@ -2766,8 +2766,8 @@
 					<attachment name="unitAttachment" attachTo="goblin_stabber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="2"/>
-						<option name="attack" value="3"/>
-						<option name="defense" value="2"/>
+						<option name="attack" value="2"/>
+						<option name="defense" value="3"/>
 						<option name="targetsAA" value="@charge@"/>
 						<option name="typeAA" value="formation"/>
 						<option name="attackAA" value="2"/>
@@ -3929,9 +3929,9 @@
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="2"/>
 						
-						<option name="attack" value="6"/>
+						<option name="attack" value="5"/>
 						<option name="attackRolls" value="2"/>
-						<option name="defense" value="6"/>
+						<option name="defense" value="5"/>
 						<option name="defenseRolls" value="2"/>
 						
 						<option name="targetsAA" value="@duel@"/>
@@ -3944,7 +3944,7 @@
 						<option name="maxAAattacks" value="1"/>
 						<option name="maxRoundsAA" value="-1"/>
 						
-						<tag name="leadership12"/>
+						<tag name="leadership20"/>
 						<tag name="combatunit"/>
 						<tag name="duel"/>
 						<tag name="tp_unyielding"/>
@@ -3954,8 +3954,8 @@
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="4"/>
 						
-						<option name="attack" value="7"/>
-						<option name="defense" value="7"/>
+						<option name="attack" value="6"/>
+						<option name="defense" value="6"/>
 						
 						<option name="targetsAA" value="@duel@"/>
 						<option name="typeAA" value="duel"/>
@@ -3967,8 +3967,8 @@
 						<option name="maxAAattacks" value="1"/>
 						<option name="maxRoundsAA" value="-1"/>
 						
-						<tag name="leadership6"/>
-						<tag name="terror12"/>
+						<tag name="leadership8"/>
+						<tag name="terror16"/>
 						<tag name="combatunit"/>
 						<tag name="duel"/>
 						<tag name="tp_relentless"/>
@@ -3997,8 +3997,8 @@
 						<option name="maxRoundsAA" value="-1"/>
 						
 						<tag name="flying"/>
-						<tag name="leadership6"/>
-						<tag name="terror12"/>
+						<tag name="leadership8"/>
+						<tag name="terror16"/>
 						<tag name="combatunit"/>
 						<tag name="duel"/>
 						<tag name="tp_relentless"/>
@@ -4009,9 +4009,9 @@
 						<option name="movement" value="3"/>
 						<option name="hitPoints" value="2"/>
 						
-						<option name="attack" value="7"/>
+						<option name="attack" value="6"/>
 						<option name="attackRolls" value="3"/>
-						<option name="defense" value="7"/>
+						<option name="defense" value="6"/>
 						<option name="defenseRolls" value="3"/>
 						
 						<option name="targetsAA" value="@duel@"/>
@@ -4024,8 +4024,8 @@
 						<option name="maxAAattacks" value="1"/>
 						<option name="maxRoundsAA" value="-1"/>
 						
-						<tag name="leadership8"/>
-						<tag name="terror8"/>
+						<tag name="leadership12"/>
+						<tag name="terror12"/>
 						<tag name="combatunit"/>
 						<tag name="duel"/>
 						<tag name="tp_relentless"/>
@@ -4371,6 +4371,17 @@
 						<option name="impArtTech" value="false"/>
 						<option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm"/>
 					</attachment>
+					<attachment foreach="UNIT=@leadership20@" name="supportAttachment_leadership20_$UNIT$" attachTo="$UNIT$" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+						<option name="unitType" value="@combatunit@"/>
+						<option name="faction" value="allied"/>
+						<option name="side" value="offence:defence"/>
+						<option name="dice" value="strength"/>
+						<option name="bonus" value="1"/>
+						<option name="number" value="20"/>
+						<option name="bonusType" value="leadership"/>
+						<option name="impArtTech" value="false"/>
+						<option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm"/>
+					</attachment>
 					
 					<attachment foreach="UNIT=@terror2@" name="supportAttachment_terror2_$UNIT$" attachTo="$UNIT$" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 						<option name="unitType" value="@combatunit~unseen@"/>
@@ -4394,7 +4405,7 @@
 						<option name="impArtTech" value="false"/>
 						<option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm"/>
 					</attachment>
-					<attachment foreach="UNIT=@terror8@" name="supportAttachment_terror8_$UNIT$" attachTo="$UNIT$" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+					<!--<attachment foreach="UNIT=@terror8@" name="supportAttachment_terror8_$UNIT$" attachTo="$UNIT$" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 						<option name="unitType" value="@combatunit~unseen@"/>
 						<option name="faction" value="enemy"/>
 						<option name="side" value="offence:defence"/>
@@ -4404,7 +4415,7 @@
 						<option name="bonusType" value="terror"/>
 						<option name="impArtTech" value="false"/>
 						<option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm"/>
-					</attachment>
+					</attachment>-->
 					<attachment foreach="UNIT=@terror12@" name="supportAttachment_terror12_$UNIT$" attachTo="$UNIT$" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 						<option name="unitType" value="@combatunit~unseen@"/>
 						<option name="faction" value="enemy"/>
@@ -4412,6 +4423,17 @@
 						<option name="dice" value="strength"/>
 						<option name="bonus" value="-1"/>
 						<option name="number" value="12"/>
+						<option name="bonusType" value="terror"/>
+						<option name="impArtTech" value="false"/>
+						<option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm"/>
+					</attachment>
+					<attachment foreach="UNIT=@terror16@" name="supportAttachment_terror16_$UNIT$" attachTo="$UNIT$" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+						<option name="unitType" value="@combatunit~unseen@"/>
+						<option name="faction" value="enemy"/>
+						<option name="side" value="offence:defence"/>
+						<option name="dice" value="strength"/>
+						<option name="bonus" value="-1"/>
+						<option name="number" value="16"/>
 						<option name="bonusType" value="terror"/>
 						<option name="impArtTech" value="false"/>
 						<option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm"/>
