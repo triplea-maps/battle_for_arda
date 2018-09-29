@@ -6037,11 +6037,13 @@
       <option name="production" value="6" />
       <option name="unitProduction" value="5" />
       <option name="territoryEffect" value="cave" />
+      <option name="territoryEffect" value="settlement" />
     </attachment>
     <attachment name="territoryAttachment" attachTo="Carn Dûm" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="12" />
       <option name="unitProduction" value="8" />
       <option name="territoryEffect" value="cave" />
+      <option name="territoryEffect" value="settlement" />
       <option name="capital" value="Angmar" />
     </attachment>
     <attachment name="territoryAttachment" attachTo="Forodwaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -6143,6 +6145,7 @@
       <option name="production" value="2" />
       <option name="unitProduction" value="3" />
       <option name="territoryEffect" value="forest" />
+      <option name="territoryEffect" value="settlement" />
     </attachment>
     <attachment name="territoryAttachment" attachTo="Derndingle" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1" />
