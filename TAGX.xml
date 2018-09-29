@@ -2379,6 +2379,10 @@
 				<cost resource="PUs" quantity="6" />
 				<result resourceOrUnit="orc_marauder" quantity="1"/>
 			</productionRule>
+			<productionRule name="buy_barrow_wight">
+				<cost resource="PUs" quantity="7" />
+				<result resourceOrUnit="barrow_wight" quantity="1"/>
+			</productionRule>
 			<productionRule name="buy_warg_scout">
 				<cost resource="PUs" quantity="7" />
 				<result resourceOrUnit="warg_scout" quantity="1"/>
@@ -2497,6 +2501,7 @@
 							<frontierRules name="buy_snaga_skirmisher"/>
 							<frontierRules name="buy_orc_marauder"/>
 							<frontierRules name="buy_warg_rider"/>
+							<frontierRules name="buy_barrow_wight"/>
 							<frontierRules name="buy_troll"/>
 							<frontierRules name="buy_dragon"/>
 							<frontierRules name="buy_nazgul"/>
@@ -2964,6 +2969,18 @@
 						<tag name="combatunit"/>
 						<tag name="tp_relentless"/>
                     </attachment>
+					
+					<attachment name="unitAttachment" attachTo="barrow_wight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+						<option name="transportCost" value="1"/>
+						<option name="movement" value="2"/>
+						<option name="attack" value="2"/>
+						<option name="defense" value="5"/>
+						
+						<tag name="infantry"/>
+						<tag name="terror2"/>
+						<tag name="combatunit"/>
+						<tag name="tp_ambusher"/>
+					</attachment>
 					
 					<attachment name="unitAttachment" attachTo="corsair" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
