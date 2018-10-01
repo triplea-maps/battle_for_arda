@@ -2365,7 +2365,7 @@
       <result resourceOrUnit="balrog" quantity="1" />
     </productionRule>
     <productionRule name="buy_dragon">
-      <cost resource="PUs" quantity="36" />
+      <cost resource="PUs" quantity="42" />
       <result resourceOrUnit="dragon" quantity="1" />
     </productionRule>
     <productionRule name="buy_riddermark_militia">
@@ -4271,6 +4271,28 @@
       <option name="dice" value="strength" />
       <option name="bonus" value="-3" />
       <option name="number" value="1" />
+      <option name="bonusType" value="armor" />
+      <option name="impArtTech" value="false" />
+      <option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm" />
+    </attachment>
+    <attachment name="supportAttachment_armor3x2_dragon" attachTo="dragon" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="dunlending_wildman:spearman:halforc:orc_marauder:goblin_stabber:riddermark_militia:uruk_pikeman:uruk_warrior:beorning_warrior:helming_warrior:balchoth_tribesman:dunadan_guard:barding_infantry:elven_warden:man_at_arms:oathbreaker:corsair:black_numenorean:tower_guard:dwarven_axeman:dwarven_pikeman:dwarven_halberdier:noldorin_warrior:trollman:raider:variag_raider:pony_rider:scout:warg_scout:eotheod_cavalry:eorling_rider:dunadan_lancer:wainrider_chieftain:swan_knight:kings_company:warg_rider" />
+      <option name="faction" value="enemy" />
+      <option name="side" value="offence:defence" />
+      <option name="dice" value="strength" />
+      <option name="bonus" value="-3" />
+      <option name="number" value="2" />
+      <option name="bonusType" value="armor" />
+      <option name="impArtTech" value="false" />
+      <option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm" />
+    </attachment>
+    <attachment name="supportAttachment_armor3x2_dragon_hit2" attachTo="dragon_hit2" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="dunlending_wildman:spearman:halforc:orc_marauder:goblin_stabber:riddermark_militia:uruk_pikeman:uruk_warrior:beorning_warrior:helming_warrior:balchoth_tribesman:dunadan_guard:barding_infantry:elven_warden:man_at_arms:oathbreaker:corsair:black_numenorean:tower_guard:dwarven_axeman:dwarven_pikeman:dwarven_halberdier:noldorin_warrior:trollman:raider:variag_raider:pony_rider:scout:warg_scout:eotheod_cavalry:eorling_rider:dunadan_lancer:wainrider_chieftain:swan_knight:kings_company:warg_rider" />
+      <option name="faction" value="enemy" />
+      <option name="side" value="offence:defence" />
+      <option name="dice" value="strength" />
+      <option name="bonus" value="-3" />
+      <option name="number" value="2" />
       <option name="bonusType" value="armor" />
       <option name="impArtTech" value="false" />
       <option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm" />
