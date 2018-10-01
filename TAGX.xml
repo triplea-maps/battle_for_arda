@@ -3648,7 +3648,7 @@
 					
 					<attachment name="unitAttachment" attachTo="eagle" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="isAir" value="true"/>
-						<option name="movement" value="8"/>
+						<option name="movement" value="5"/>
 						<option name="hitPoints" value="2"/>
 						
 						<option name="canAirBattle" value="true"/>
@@ -3664,7 +3664,7 @@
 					
 					<attachment name="unitAttachment" attachTo="crebain" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="isAir" value="true"/>
-						<option name="movement" value="6"/>
+						<option name="movement" value="4"/>
 						<option name="attack" value="3"/>
 						<option name="defense" value="2"/>
 						
@@ -3679,7 +3679,7 @@
 					
 					<attachment name="unitAttachment" attachTo="raven" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="isAir" value="true"/>
-						<option name="movement" value="4"/>
+						<option name="movement" value="3"/>
                         <option name="attack" value="4"/>
 						<option name="defense" value="3"/>
 						
@@ -3694,7 +3694,7 @@
 					
 					<attachment name="unitAttachment" attachTo="bat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="isAir" value="true"/>
-						<option name="movement" value="4"/>
+						<option name="movement" value="3"/>
                         <option name="attack" value="6"/>
 						<option name="defense" value="2"/>
 						
@@ -3709,7 +3709,7 @@
 					
 					<attachment name="unitAttachment" attachTo="dragon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="isAir" value="true"/>
-						<option name="movement" value="4"/>
+						<option name="movement" value="3"/>
 						<option name="hitPoints" value="3"/>
 						
 						<!--<option name="whenHitPointsDamagedChangesInto" value="2:true:dragon_hit2"/>-->
@@ -3741,7 +3741,7 @@
 					
 					<attachment name="unitAttachment" attachTo="dragon_hit2" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="isAir" value="true"/>
-						<option name="movement" value="4"/>
+						<option name="movement" value="3"/>
 						<option name="hitPoints" value="3"/>
 						
 						<option name="whenHitPointsRepairedChangesInto" value="1:true:dragon"/>
@@ -3993,7 +3993,7 @@
 					
 					<attachment name="unitAttachment" attachTo="winged_nazgul" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="isAir" value="true"/>
-						<option name="movement" value="6"/>
+						<option name="movement" value="4"/>
 						<option name="hitPoints" value="2"/>
 						
 						<option name="attack" value="7"/>
