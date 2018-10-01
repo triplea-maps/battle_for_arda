@@ -2405,19 +2405,19 @@
       <result resourceOrUnit="fortress" quantity="1" />
     </productionRule>
     <productionRule name="buy_raft">
-      <cost resource="PUs" quantity="7" />
+      <cost resource="PUs" quantity="4" />
       <result resourceOrUnit="raft" quantity="1" />
     </productionRule>
     <productionRule name="buy_swan_boat">
-      <cost resource="PUs" quantity="10" />
+      <cost resource="PUs" quantity="5" />
       <result resourceOrUnit="swan_boat" quantity="1" />
     </productionRule>
     <productionRule name="buy_dromund">
-      <cost resource="PUs" quantity="14" />
+      <cost resource="PUs" quantity="12" />
       <result resourceOrUnit="dromund" quantity="1" />
     </productionRule>
     <productionRule name="buy_black_ship">
-      <cost resource="PUs" quantity="16" />
+      <cost resource="PUs" quantity="14" />
       <result resourceOrUnit="black_ship" quantity="1" />
     </productionRule>
     <productionFrontier name="SarumanFrontier">
@@ -3565,7 +3565,7 @@
       <option name="isSea" value="true" />
       <option name="movement" value="1" />
       <option name="transportCapacity" value="2" />
-      <option name="defense" value="2" />
+      <option name="defense" value="3" />
       <option name="attack" value="1" />
     </attachment>
     <attachment name="unitAttachment" attachTo="swan_boat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -3577,21 +3577,23 @@
       <option name="isSea" value="true" />
       <option name="movement" value="2" />
       <option name="transportCapacity" value="2" />
-      <option name="defense" value="2" />
+      <option name="defense" value="3" />
       <option name="attack" value="2" />
     </attachment>
     <attachment name="unitAttachment" attachTo="dromund" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isSea" value="true" />
       <option name="movement" value="2" />
+      <option name="hitPoints" value="2" />
       <option name="transportCapacity" value="3" />
-      <option name="defense" value="4" />
+      <option name="defense" value="5" />
       <option name="attack" value="5" />
     </attachment>
     <attachment name="unitAttachment" attachTo="black_ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isSea" value="true" />
       <option name="movement" value="2" />
+      <option name="hitPoints" value="2" />
       <option name="transportCapacity" value="4" />
-      <option name="defense" value="3" />
+      <option name="defense" value="4" />
       <option name="attack" value="7" />
     </attachment>
     <!--Some old units kept for potential future use
