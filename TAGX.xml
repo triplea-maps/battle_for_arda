@@ -2150,7 +2150,7 @@
 		
 		<production>
 			<productionRule name="buy_dunlending_wildman">
-				<cost resource="PUs" quantity="4" />
+				<cost resource="PUs" quantity="5" />
 				<result resourceOrUnit="dunlending_wildman" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_halforc">
@@ -2232,7 +2232,7 @@
 				<result resourceOrUnit="barding_infantry" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_raider">
-				<cost resource="PUs" quantity="5" />
+				<cost resource="PUs" quantity="6" />
 				<result resourceOrUnit="raider" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_eotheod_cavalry">
@@ -2258,7 +2258,7 @@
 				<result resourceOrUnit="galadhrim_longbowman" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_elven_cavalry">
-				<cost resource="PUs" quantity="7" />
+				<cost resource="PUs" quantity="8" />
 				<result resourceOrUnit="elven_cavalry" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_huorn">
@@ -2276,11 +2276,11 @@
 				<result resourceOrUnit="balchoth_tribesman" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_easterling_cavalry">
-				<cost resource="PUs" quantity="7" />
+				<cost resource="PUs" quantity="8" />
 				<result resourceOrUnit="easterling_cavalry" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_chariot">
-				<cost resource="PUs" quantity="7" />
+				<cost resource="PUs" quantity="8" />
 				<result resourceOrUnit="chariot" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_wainrider_chieftain">
@@ -2324,7 +2324,7 @@
 				<result resourceOrUnit="black_numenorean" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_variag_raider">
-				<cost resource="PUs" quantity="7" />
+				<cost resource="PUs" quantity="8" />
 				<result resourceOrUnit="variag_raider" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_oliphaunt">
@@ -2339,7 +2339,7 @@
 				<result resourceOrUnit="hobbit_archer" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_scout">
-				<cost resource="PUs" quantity="5" />
+				<cost resource="PUs" quantity="6" />
 				<result resourceOrUnit="scout" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_pony_rider">
@@ -2438,7 +2438,7 @@
 				<result resourceOrUnit="helming_warrior" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_rohirric_scout">
-				<cost resource="PUs" quantity="7" />
+				<cost resource="PUs" quantity="8" />
 				<result resourceOrUnit="rohirric_scout" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_eorling_rider">
@@ -2697,7 +2697,7 @@
 					<attachment name="unitAttachment" attachTo="dunlending_wildman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="2"/>
-						<option name="attack" value="2"/>
+						<option name="attack" value="3"/>
 						<option name="defense" value="2"/>
 						<tag name="melee"/>
 						<tag name="infantry"/>
@@ -3010,7 +3010,7 @@
 					<attachment name="unitAttachment" attachTo="tower_guard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="2"/>
-						<option name="attack" value="5"/>
+						<option name="attack" value="4"/>
 						<option name="defense" value="6"/>
 						<tag name="melee"/>
 						<tag name="infantry"/>
@@ -3109,7 +3109,7 @@
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="2"/>
 						<option name="attack" value="1"/>
-						<option name="defense" value="3"/>
+						<option name="defense" value="2"/>
 						
 						<option name="targetsAA" value="@flying@"/>
 						<option name="typeAA" value="antiair"/>
@@ -3404,7 +3404,7 @@
 					<attachment name="unitAttachment" attachTo="warg_scout" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="4"/>
-						<option name="attack" value="4"/>
+						<option name="attack" value="3"/>
 						<option name="defense" value="4"/>
 						<option name="targetsAA" value="@siegeengineˇinfantry^ranged@"/>
 						<option name="typeAA" value="flank"/>
@@ -3427,7 +3427,7 @@
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="4"/>
 						<option name="attack" value="5"/>
-						<option name="defense" value="2"/>
+						<option name="defense" value="3"/>
 						<option name="targetsAA" value="@siegeengineˇinfantry^ranged@"/>
 						<option name="typeAA" value="flank"/>
 						<option name="attackAA" value="3"/>
@@ -3449,7 +3449,7 @@
 					<attachment name="unitAttachment" attachTo="easterling_cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="4"/>
-						<option name="attack" value="4"/>
+						<option name="attack" value="5"/>
 						<option name="defense" value="2"/>
 						<option name="targetsAA" value="@siegeengineˇinfantry^ranged@"/>
 						<option name="typeAA" value="flank"/>
@@ -3470,7 +3470,7 @@
 					
 					<attachment name="unitAttachment" attachTo="eotheod_cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
-						<option name="movement" value="4"/>
+						<option name="movement" value="3"/>
 						<option name="attack" value="4"/>
 						<option name="defense" value="4"/>
 						<option name="targetsAA" value="@infantry@"/>
@@ -3491,7 +3491,7 @@
 					
 					<attachment name="unitAttachment" attachTo="eorling_rider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
-						<option name="movement" value="4"/>
+						<option name="movement" value="3"/>
 						<option name="attack" value="5"/>
 						<option name="defense" value="2"/>
 						<option name="targetsAA" value="@infantry@"/>
@@ -3513,7 +3513,7 @@
 					
 					<attachment name="unitAttachment" attachTo="dunadan_lancer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
-						<option name="movement" value="4"/>
+						<option name="movement" value="3"/>
 						<option name="attack" value="4"/>
 						<option name="defense" value="2"/>
 						<option name="targetsAA" value="@infantry@"/>
@@ -3537,7 +3537,7 @@
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="3"/>
 						<option name="attack" value="3"/>
-						<option name="defense" value="5"/>
+						<option name="defense" value="6"/>
 						<option name="targetsAA" value="@infantry@"/>
 						<option name="typeAA" value="charge"/>
 						<option name="attackAA" value="0"/>
