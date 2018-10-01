@@ -2785,7 +2785,7 @@
     <attachment name="unitAttachment" attachTo="barrow_wight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="transportCost" value="1" />
       <option name="movement" value="2" />
-      <option name="attack" value="3" />
+      <option name="attack" value="2" />
       <option name="defense" value="5" />
     </attachment>
     <attachment name="unitAttachment" attachTo="corsair" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -2858,7 +2858,7 @@
       <option name="defense" value="3" />
       <option name="targetsAA" value="eagle:crebain:raven:bat:dragon:dragon_hit2:winged_nazgul" />
       <option name="typeAA" value="antiair" />
-      <option name="attackAA" value="2" />
+      <option name="attackAA" value="3" />
       <option name="offensiveAttackAA" value="0" />
       <option name="isAAforCombatOnly" value="true" />
       <option name="mayOverStackAA" value="true" />
@@ -2879,7 +2879,7 @@
       <option name="defense" value="3" />
       <option name="targetsAA" value="eagle:crebain:raven:bat:dragon:dragon_hit2:winged_nazgul" />
       <option name="typeAA" value="antiair" />
-      <option name="attackAA" value="4" />
+      <option name="attackAA" value="5" />
       <option name="offensiveAttackAA" value="0" />
       <option name="isAAforCombatOnly" value="true" />
       <option name="mayOverStackAA" value="true" />
@@ -2894,7 +2894,7 @@
       <option name="defense" value="4" />
       <option name="targetsAA" value="eagle:crebain:raven:bat:dragon:dragon_hit2:winged_nazgul" />
       <option name="typeAA" value="antiair" />
-      <option name="attackAA" value="3" />
+      <option name="attackAA" value="4" />
       <option name="offensiveAttackAA" value="0" />
       <option name="isAAforCombatOnly" value="true" />
       <option name="mayOverStackAA" value="true" />
@@ -2909,7 +2909,7 @@
       <option name="defense" value="5" />
       <option name="targetsAA" value="eagle:crebain:raven:bat:dragon:dragon_hit2:winged_nazgul" />
       <option name="typeAA" value="antiair" />
-      <option name="attackAA" value="2" />
+      <option name="attackAA" value="3" />
       <option name="offensiveAttackAA" value="0" />
       <option name="isAAforCombatOnly" value="true" />
       <option name="mayOverStackAA" value="true" />
@@ -2924,7 +2924,7 @@
       <option name="defense" value="3" />
       <option name="targetsAA" value="eagle:crebain:raven:bat:dragon:dragon_hit2:winged_nazgul" />
       <option name="typeAA" value="antiair" />
-      <option name="attackAA" value="2" />
+      <option name="attackAA" value="3" />
       <option name="offensiveAttackAA" value="0" />
       <option name="isAAforCombatOnly" value="true" />
       <option name="mayOverStackAA" value="true" />
@@ -2939,7 +2939,7 @@
       <option name="defense" value="5" />
       <option name="targetsAA" value="eagle:crebain:raven:bat:dragon:dragon_hit2:winged_nazgul" />
       <option name="typeAA" value="antiair" />
-      <option name="attackAA" value="3" />
+      <option name="attackAA" value="4" />
       <option name="offensiveAttackAA" value="0" />
       <option name="isAAforCombatOnly" value="true" />
       <option name="mayOverStackAA" value="true" />
@@ -2954,7 +2954,7 @@
       <option name="defense" value="5" />
       <option name="targetsAA" value="eagle:crebain:raven:bat:dragon:dragon_hit2:winged_nazgul" />
       <option name="typeAA" value="antiair" />
-      <option name="attackAA" value="3" />
+      <option name="attackAA" value="4" />
       <option name="offensiveAttackAA" value="0" />
       <option name="isAAforCombatOnly" value="true" />
       <option name="mayOverStackAA" value="true" />

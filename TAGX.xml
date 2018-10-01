@@ -3113,7 +3113,7 @@
 						
 						<option name="targetsAA" value="@flying@"/>
 						<option name="typeAA" value="antiair"/>
-						<option name="attackAA" value="2"/>
+						<option name="attackAA" value="3"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
 						<option name="mayOverStackAA" value="true"/>
@@ -3149,7 +3149,7 @@
 						<option name="defense" value="3"/>
 						<option name="targetsAA" value="@flying@"/>
 						<option name="typeAA" value="antiair"/>
-						<option name="attackAA" value="4"/>
+						<option name="attackAA" value="5"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
 						<option name="mayOverStackAA" value="true"/>
@@ -3170,7 +3170,7 @@
 						<option name="defense" value="4"/>
 						<option name="targetsAA" value="@flying@"/>
 						<option name="typeAA" value="antiair"/>
-						<option name="attackAA" value="3"/>
+						<option name="attackAA" value="4"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
 						<option name="mayOverStackAA" value="true"/>
@@ -3191,7 +3191,7 @@
 						<option name="defense" value="5"/>
 						<option name="targetsAA" value="@flying@"/>
 						<option name="typeAA" value="antiair"/>
-						<option name="attackAA" value="2"/>
+						<option name="attackAA" value="3"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
 						<option name="mayOverStackAA" value="true"/>
@@ -3213,7 +3213,7 @@
 						<option name="defense" value="3"/>
 						<option name="targetsAA" value="@flying@"/>
 						<option name="typeAA" value="antiair"/>
-						<option name="attackAA" value="2"/>
+						<option name="attackAA" value="3"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
 						<option name="mayOverStackAA" value="true"/>
@@ -3236,7 +3236,7 @@
 						<option name="defense" value="5"/>
 						<option name="targetsAA" value="@flying@"/>
 						<option name="typeAA" value="antiair"/>
-						<option name="attackAA" value="3"/>
+						<option name="attackAA" value="4"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
 						<option name="mayOverStackAA" value="true"/>
@@ -3260,7 +3260,7 @@
 						
 						<option name="targetsAA" value="@flying@"/>
 						<option name="typeAA" value="antiair"/>
-						<option name="attackAA" value="3"/>
+						<option name="attackAA" value="4"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
 						<option name="mayOverStackAA" value="true"/>
