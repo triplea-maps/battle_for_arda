@@ -7364,12 +7364,6 @@
       <option name="productionRule" value="DolGuldurFrontier:buy_raft" />
       <option name="uses" value="1" />
     </attachment>
-    <attachment name="triggerAttachment_Angmar_add_swan_boat" attachTo="Angmar" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_SU" />
-      <option name="when" value="before:sarumanCombatMove" />
-      <option name="productionRule" value="AngmarFrontier:buy_swan_boat" />
-      <option name="uses" value="1" />
-    </attachment>
     <attachment name="triggerAttachment_HighElves_add_swan_boat" attachTo="HighElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachment_SU" />
       <option name="when" value="before:sarumanCombatMove" />

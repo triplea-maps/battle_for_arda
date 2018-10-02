@@ -7609,7 +7609,7 @@
 						<option name="productionRule" value="$PLAYER$Frontier:buy_raft"/>
 						<option name="uses" value="1"/>
 					</attachment>
-					<attachment foreach="PLAYER=Angmar:HighElves:WoodlandRealm:Lorien" name="triggerAttachment_$PLAYER$_add_swan_boat" attachTo="$PLAYER$" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+					<attachment foreach="PLAYER=HighElves:WoodlandRealm:Lorien" name="triggerAttachment_$PLAYER$_add_swan_boat" attachTo="$PLAYER$" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 						<option name="conditions" value="conditionAttachment_SU"/>
 						<option name="when" value="before:sarumanCombatMove"/>
 						<option name="productionRule" value="$PLAYER$Frontier:buy_swan_boat"/>
