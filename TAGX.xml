@@ -7628,7 +7628,7 @@
 						<option name="uses" value="1"/>
 					</attachment>
 					
-					<attachment name="triggerAttachmentHighElves_place_SU" attachTo="HighElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+					<!--<attachment name="triggerAttachmentHighElves_place_SU" attachTo="HighElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 						<option name="conditions" value="conditionAttachment_SU"/>
 						<option name="when" value="before:sarumanCombatMove"/>
 						<option name="placement" value="sz Gulf of Lhûn:dromund" count="1"/>
@@ -7664,6 +7664,16 @@
 						<option name="conditions" value="conditionAttachment_SU"/>
 						<option name="when" value="before:sarumanCombatMove"/>
 						<option name="placement" value="sz Sea of Rhûn:dromund" count="1"/>
+						<option name="uses" value="1"/>
+					</attachment>-->
+					
+					<attachment foreach="PLAYER=Mordor:Saruman:DolGuldur:Rhun:Orcs:Angmar:Harad:Gondor:Rohan:Lorien:Freefolk:HighElves:Arnor:Northmen:Dwarves:WoodlandRealm" name="triggerAttachment$PLAYER$_Remove_SU" attachTo="$PLAYER$" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+						<option name="conditions" value="conditionAttachment_noSU"/>
+						<option name="when" value="before:sarumanCombatMove"/>
+						<option name="removeUnits" value="all:raft" count="2"/>
+						<option name="removeUnits" value="all:swan_boat" count="2"/>
+						<option name="removeUnits" value="all:dromund" count="2"/>
+						<option name="removeUnits" value="all:black_ship" count="2"/>
 						<option name="uses" value="1"/>
 					</attachment>
 					

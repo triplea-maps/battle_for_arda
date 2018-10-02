@@ -7424,42 +7424,186 @@
       <option name="productionRule" value="HaradFrontier:buy_black_ship" />
       <option name="uses" value="1" />
     </attachment>
-    <attachment name="triggerAttachmentHighElves_place_SU" attachTo="HighElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_SU" />
+    <!--<attachment name="triggerAttachmentHighElves_place_SU" attachTo="HighElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+						<option name="conditions" value="conditionAttachment_SU"/>
+						<option name="when" value="before:sarumanCombatMove"/>
+						<option name="placement" value="sz Gulf of Lhûn:dromund" count="1"/>
+						<option name="placement" value="sz Bruinen:swan_boat" count="1"/>
+						<option name="uses" value="1"/>
+					</attachment>
+					<attachment name="triggerAttachmentHarad_SU" attachTo="Harad" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+						<option name="conditions" value="conditionAttachment_SU"/>
+						<option name="when" value="before:sarumanCombatMove"/>
+						<option name="placement" value="sz Gulf of Umbar:black_ship" count="2"/>
+						<option name="uses" value="1"/>
+					</attachment>
+					<attachment name="triggerAttachmentLorien_SU" attachTo="Lorien" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+						<option name="conditions" value="conditionAttachment_SU"/>
+						<option name="when" value="before:sarumanCombatMove"/>
+						<option name="placement" value="sz Upper Anduin 3:swan_boat" count="1"/>
+						<option name="uses" value="1"/>
+					</attachment>
+					<attachment name="triggerAttachmentGondor_SU" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+						<option name="conditions" value="conditionAttachment_SU"/>
+						<option name="when" value="before:sarumanCombatMove"/>
+						<option name="placement" value="sz Bay of Belfalas:dromund" count="2"/>
+						<option name="placement" value="sz Lower Anduin 1:dromund" count="1"/>
+						<option name="uses" value="1"/>
+					</attachment>
+					<attachment name="triggerAttachmentNorthmen_SU" attachTo="Northmen" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+						<option name="conditions" value="conditionAttachment_SU"/>
+						<option name="when" value="before:sarumanCombatMove"/>
+						<option name="placement" value="sz Celduin 3:dromund" count="1"/>
+						<option name="uses" value="1"/>
+					</attachment>
+					<attachment name="triggerAttachmentRhun_SU" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+						<option name="conditions" value="conditionAttachment_SU"/>
+						<option name="when" value="before:sarumanCombatMove"/>
+						<option name="placement" value="sz Sea of Rhûn:dromund" count="1"/>
+						<option name="uses" value="1"/>
+					</attachment>-->
+    <attachment name="triggerAttachmentMordor_Remove_SU" attachTo="Mordor" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
       <option name="when" value="before:sarumanCombatMove" />
-      <option name="placement" value="sz Gulf of Lhûn:dromund" count="1" />
-      <option name="placement" value="sz Bruinen:swan_boat" count="1" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
       <option name="uses" value="1" />
     </attachment>
-    <attachment name="triggerAttachmentHarad_SU" attachTo="Harad" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_SU" />
+    <attachment name="triggerAttachmentSaruman_Remove_SU" attachTo="Saruman" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
       <option name="when" value="before:sarumanCombatMove" />
-      <option name="placement" value="sz Gulf of Umbar:black_ship" count="2" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
       <option name="uses" value="1" />
     </attachment>
-    <attachment name="triggerAttachmentLorien_SU" attachTo="Lorien" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_SU" />
+    <attachment name="triggerAttachmentDolGuldur_Remove_SU" attachTo="DolGuldur" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
       <option name="when" value="before:sarumanCombatMove" />
-      <option name="placement" value="sz Upper Anduin 3:swan_boat" count="1" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
       <option name="uses" value="1" />
     </attachment>
-    <attachment name="triggerAttachmentGondor_SU" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_SU" />
+    <attachment name="triggerAttachmentRhun_Remove_SU" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
       <option name="when" value="before:sarumanCombatMove" />
-      <option name="placement" value="sz Bay of Belfalas:dromund" count="2" />
-      <option name="placement" value="sz Lower Anduin 1:dromund" count="1" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
       <option name="uses" value="1" />
     </attachment>
-    <attachment name="triggerAttachmentNorthmen_SU" attachTo="Northmen" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_SU" />
+    <attachment name="triggerAttachmentOrcs_Remove_SU" attachTo="Orcs" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
       <option name="when" value="before:sarumanCombatMove" />
-      <option name="placement" value="sz Celduin 3:dromund" count="1" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
       <option name="uses" value="1" />
     </attachment>
-    <attachment name="triggerAttachmentRhun_SU" attachTo="Rhun" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_SU" />
+    <attachment name="triggerAttachmentAngmar_Remove_SU" attachTo="Angmar" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
       <option name="when" value="before:sarumanCombatMove" />
-      <option name="placement" value="sz Sea of Rhûn:dromund" count="1" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentHarad_Remove_SU" attachTo="Harad" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentGondor_Remove_SU" attachTo="Gondor" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentRohan_Remove_SU" attachTo="Rohan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentLorien_Remove_SU" attachTo="Lorien" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentFreefolk_Remove_SU" attachTo="Freefolk" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentHighElves_Remove_SU" attachTo="HighElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentArnor_Remove_SU" attachTo="Arnor" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentNorthmen_Remove_SU" attachTo="Northmen" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentDwarves_Remove_SU" attachTo="Dwarves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
+      <option name="uses" value="1" />
+    </attachment>
+    <attachment name="triggerAttachmentWoodlandRealm_Remove_SU" attachTo="WoodlandRealm" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_noSU" />
+      <option name="when" value="before:sarumanCombatMove" />
+      <option name="removeUnits" value="all:raft" count="2" />
+      <option name="removeUnits" value="all:swan_boat" count="2" />
+      <option name="removeUnits" value="all:dromund" count="2" />
+      <option name="removeUnits" value="all:black_ship" count="2" />
       <option name="uses" value="1" />
     </attachment>
     <!--VICTORY-->
