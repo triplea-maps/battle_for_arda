@@ -8465,7 +8465,7 @@
       <unitPlacement unitType="black_ship" territory="sz Gulf of Umbar" quantity="2" owner="Harad" />
       <unitPlacement unitType="bowman" territory="Lefnui Vale" quantity="1" />
       <unitPlacement unitType="barrow_wight" territory="Barrow Downs" quantity="3" owner="Angmar" />
-      <unitPlacement unitType="dromund" territory="sz Lower Anduin 1" quantity="1" owner="Gondor" />
+      <unitPlacement unitType="dromund" territory="sz Lower Anduin 2" quantity="1" owner="Gondor" />
       <unitPlacement unitType="troll" territory="Trollshaws" quantity="2" owner="Orcs" />
       <unitPlacement unitType="spearman" territory="Lower Lefnui" quantity="1" />
       <unitPlacement unitType="bowman" territory="West Cardolan" quantity="1" />
