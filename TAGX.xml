@@ -2372,7 +2372,7 @@
 			
 			
 			<productionRule name="buy_snaga_skirmisher">
-				<cost resource="PUs" quantity="4" />
+				<cost resource="PUs" quantity="5" />
 				<result resourceOrUnit="snaga_skirmisher" quantity="1"/>
 			</productionRule>
 			<productionRule name="buy_orc_marauder">
@@ -3131,7 +3131,7 @@
 					<attachment name="unitAttachment" attachTo="snaga_skirmisher" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 						<option name="transportCost" value="1"/>
 						<option name="movement" value="2"/>
-						<option name="attack" value="2"/>
+						<option name="attack" value="3"/>
 						<option name="defense" value="2"/>
 						
 						<tag name="ranged"/>
