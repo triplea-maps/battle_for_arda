@@ -8127,7 +8127,7 @@
       <unitPlacement unitType="spider" territory="West Mirkwood" quantity="1" owner="DolGuldur" />
       <unitPlacement unitType="elven_cavalry" territory="North Lindon" quantity="2" owner="HighElves" />
       <unitPlacement unitType="elven_hunter" territory="High Pass" quantity="1" owner="HighElves" />
-      <unitPlacement unitType="eagle" territory="High Pass" quantity="1" owner="HighElves" />
+      <unitPlacement unitType="eagle" territory="Rivendell" quantity="1" owner="HighElves" />
       <unitPlacement unitType="factory" territory="Mithlond" quantity="1" owner="HighElves" />
       <unitPlacement unitType="elven_archer" territory="Mithlond" quantity="1" owner="HighElves" />
       <unitPlacement unitType="noldorin_warrior" territory="Mithlond" quantity="1" owner="HighElves" />
@@ -8268,7 +8268,6 @@
       <unitPlacement unitType="ancient_wall" territory="Cirith Ungol" quantity="1" owner="Mordor" />
       <unitPlacement unitType="wall" territory="Cirith Ungol" quantity="2" owner="Mordor" />
       <unitPlacement unitType="olog_hai" territory="Lithlad" quantity="1" owner="Mordor" />
-      <unitPlacement unitType="orc_marauder" territory="Lithlad" quantity="2" owner="Mordor" />
       <unitPlacement unitType="snaga_skirmisher" territory="Ash Mountains" quantity="1" owner="Mordor" />
       <unitPlacement unitType="elven_cavalry" territory="Fields of Celebrant" quantity="2" owner="Lorien" />
       <unitPlacement unitType="factory" territory="Caras Galadhon" quantity="1" owner="Lorien" />
@@ -8287,13 +8286,13 @@
       <unitPlacement unitType="wall" territory="City of Corsairs" quantity="4" owner="Harad" />
       <unitPlacement unitType="ancient_wall" territory="City of Corsairs" quantity="4" owner="Harad" />
       <unitPlacement unitType="fortress" territory="City of Corsairs" quantity="1" owner="Harad" />
-      <unitPlacement unitType="corsair" territory="City of Corsairs" quantity="2" owner="Harad" />
+      <unitPlacement unitType="corsair" territory="City of Corsairs" quantity="4" owner="Harad" />
+      <unitPlacement unitType="trollman" territory="North Umbar" quantity="2" owner="Harad" />
       <unitPlacement unitType="black_numenorean" territory="City of Corsairs" quantity="1" owner="Harad" />
       <unitPlacement unitType="catapult" territory="City of Corsairs" quantity="2" owner="Harad" />
       <unitPlacement unitType="oliphaunt" territory="Haradwaith" quantity="3" owner="Harad" />
       <unitPlacement unitType="corsair" territory="South Gondor" quantity="1" owner="Harad" />
       <unitPlacement unitType="black_numenorean" territory="North Umbar" quantity="1" owner="Harad" />
-      <unitPlacement unitType="bowman" territory="Far Harad" quantity="1" owner="Harad" />
       <unitPlacement unitType="trollman" territory="Far Harad" quantity="2" owner="Harad" />
       <unitPlacement unitType="variag_raider" territory="Khand" quantity="4" owner="Harad" />
       <unitPlacement unitType="factory" territory="Beorn's Hall" quantity="1" owner="Northmen" />
@@ -8353,7 +8352,7 @@
       <unitPlacement unitType="bat" territory="Moria" quantity="2" owner="Orcs" />
       <unitPlacement unitType="balrog" territory="Moria" quantity="1" owner="Orcs" />
       <unitPlacement unitType="wall" territory="Moria" quantity="6" owner="Orcs" />
-      <unitPlacement unitType="orc_marauder" territory="Moria" quantity="6" owner="Orcs" />
+      <unitPlacement unitType="orc_marauder" territory="Moria" quantity="5" owner="Orcs" />
       <unitPlacement unitType="ancient_wall" territory="Moria" quantity="2" owner="Orcs" />
       <unitPlacement unitType="goblin_stabber" territory="Front Porch" quantity="2" owner="Orcs" />
       <unitPlacement unitType="goblin_shooter" territory="Front Porch" quantity="2" owner="Orcs" />
@@ -8399,7 +8398,6 @@
       <unitPlacement unitType="troll" territory="Ettendales" quantity="1" owner="Angmar" />
       <unitPlacement unitType="snaga_skirmisher" territory="West Mountains of Angmar" quantity="1" owner="Angmar" />
       <unitPlacement unitType="orc_marauder" territory="West Angmar" quantity="2" owner="Angmar" />
-      <unitPlacement unitType="snaga_skirmisher" territory="West Angmar" quantity="2" owner="Angmar" />
       <unitPlacement unitType="orc_marauder" territory="Hoarwell" quantity="1" owner="Angmar" />
       <unitPlacement unitType="snaga_skirmisher" territory="Mount Gundabad" quantity="3" owner="Angmar" />
       <unitPlacement unitType="factory" territory="Mount Gundabad" quantity="1" owner="Angmar" />
@@ -8415,7 +8413,7 @@
       <unitPlacement unitType="troll" territory="Trollfells" quantity="2" owner="Angmar" />
       <unitPlacement unitType="dragon" territory="Withered Heath" quantity="1" owner="Angmar" />
       <unitPlacement unitType="snaga_skirmisher" territory="Withered Heath" quantity="2" owner="Angmar" />
-      <unitPlacement unitType="warg_rider" territory="South Angmar" quantity="2" owner="Angmar" />
+      <unitPlacement unitType="warg_rider" territory="South Angmar" quantity="1" owner="Angmar" />
       <unitPlacement unitType="orc_marauder" territory="South Angmar" quantity="2" owner="Angmar" />
       <unitPlacement unitType="warg_rider" territory="West Forodwaith" quantity="1" owner="Angmar" />
       <unitPlacement unitType="barding_infantry" territory="Kingdom of Dale" quantity="2" owner="Northmen" />
