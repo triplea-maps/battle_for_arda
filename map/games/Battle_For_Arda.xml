@@ -196,7 +196,7 @@
     <territory name="Eastfold" />
     <territory name="Entwade" />
     <territory name="Snowbourn" />
-    <territory name="Helms Deep" />
+    <territory name="Helm's Deep" />
     <territory name="West Emnet" />
     <territory name="Westfold" />
     <territory name="Adorn" />
@@ -257,12 +257,12 @@
     <territory name="Lands of Dorwinion" />
     <territory name="Dorwinion" />
     <territory name="South Rhûn" />
-    <territory name="Lands of the Balcoth" />
+    <territory name="Lands of the Balchoth" />
     <territory name="Mountains of Rhûn" />
     <territory name="North Fangorn" />
     <territory name="Wellinghall" />
     <territory name="Derndingle" />
-    <territory name="Treebeards Hill" />
+    <territory name="Treebeard's Hill" />
     <territory name="South Fangorn" />
     <territory name="Eryn Galen" />
     <territory name="North Woodland Realm" />
@@ -453,14 +453,14 @@
     <connection t1="Harrowdale" t2="Starkhorn" />
     <connection t1="Harrowdale" t2="White Mountains" />
     <connection t1="Glittering Caves" t2="Trihyrne" />
-    <connection t1="Glittering Caves" t2="Helms Deep" />
+    <connection t1="Glittering Caves" t2="Helm's Deep" />
     <connection t1="Glittering Caves" t2="Ered Nimrais" />
     <connection t1="Glittering Caves" t2="Starkhorn" />
     <connection t1="West Rhûn" t2="East Rhovanion" />
     <connection t1="West Rhûn" t2="East Brown Lands" />
     <connection t1="West Rhûn" t2="South Wilderland" />
-    <connection t1="West Rhûn" t2="Lands of the Balcoth" />
-    <connection t1="South Wilderland" t2="Lands of the Balcoth" />
+    <connection t1="West Rhûn" t2="Lands of the Balchoth" />
+    <connection t1="South Wilderland" t2="Lands of the Balchoth" />
     <connection t1="South Wilderland" t2="East Brown Lands" />
     <connection t1="South Wilderland" t2="Dagorlad" />
     <connection t1="South Wilderland" t2="South Rhûn" />
@@ -469,7 +469,7 @@
     <connection t1="Mountains of Rhûn" t2="East Rhovanion" />
     <connection t1="Southeast Rhûn" t2="East Ered Lithui" />
     <connection t1="Southeast Rhûn" t2="South Rhûn" />
-    <connection t1="Southeast Rhûn" t2="Lands of the Balcoth" />
+    <connection t1="Southeast Rhûn" t2="Lands of the Balchoth" />
     <connection t1="Southeast Rhûn" t2="Mountains of Rhûn" />
     <connection t1="Southeast Rhûn" t2="Sea of Rhûn Coast" />
     <connection t1="North Rhovanion" t2="Long Marshes" />
@@ -1039,11 +1039,11 @@
     <connection t1="The Wold" t2="sz Upper Anduin 2" />
     <connection t1="The Wold" t2="Limlight" />
     <connection t1="The Wold" t2="Entwash" />
-    <connection t1="The Wold" t2="Treebeards Hill" />
+    <connection t1="The Wold" t2="Treebeard's Hill" />
     <connection t1="Starkhorn" t2="Hornburg" />
     <connection t1="Starkhorn" t2="Paths of the Dead" />
     <connection t1="Starkhorn" t2="Snowbourn" />
-    <connection t1="Starkhorn" t2="Helms Deep" />
+    <connection t1="Starkhorn" t2="Helm's Deep" />
     <connection t1="Starkhorn" t2="Ered Nimrais" />
     <connection t1="Gap of Rohan" t2="Trihyrne" />
     <connection t1="Gap of Rohan" t2="Nan Curunír" />
@@ -1052,7 +1052,7 @@
     <connection t1="Gap of Rohan" t2="Westfold" />
     <connection t1="Trihyrne" t2="West March" />
     <connection t1="Trihyrne" t2="Hornburg" />
-    <connection t1="Trihyrne" t2="Helms Deep" />
+    <connection t1="Trihyrne" t2="Helm's Deep" />
     <connection t1="Trihyrne" t2="Fords of Isen" />
     <connection t1="Trihyrne" t2="Adorn" />
     <connection t1="Trihyrne" t2="Ered Nimrais" />
@@ -1061,9 +1061,9 @@
     <connection t1="West March" t2="Adorn" />
     <connection t1="East Wall of Rohan" t2="Mouths of Entwash" />
     <connection t1="East Wall of Rohan" t2="Entwade" />
-    <connection t1="Hornburg" t2="Helms Deep" />
+    <connection t1="Hornburg" t2="Helm's Deep" />
     <connection t1="Hornburg" t2="Westfold" />
-    <connection t1="Entwash" t2="Treebeards Hill" />
+    <connection t1="Entwash" t2="Treebeard's Hill" />
     <connection t1="Entwash" t2="Entwade" />
     <connection t1="Entwash" t2="West Emnet" />
     <connection t1="Mouths of Entwash" t2="Entwade" />
@@ -1232,19 +1232,19 @@
     <connection t1="Dorwinion" t2="sz Celduin 1" />
     <connection t1="Dorwinion" t2="sz Sea of Rhûn" />
     <connection t1="South Rhûn" t2="Carchost" />
-    <connection t1="South Rhûn" t2="Lands of the Balcoth" />
+    <connection t1="South Rhûn" t2="Lands of the Balchoth" />
     <connection t1="South Rhûn" t2="Ered Lithui" />
-    <connection t1="Lands of the Balcoth" t2="Mountains of Rhûn" />
+    <connection t1="Lands of the Balchoth" t2="Mountains of Rhûn" />
     <connection t1="North Fangorn" t2="Wellinghall" />
     <connection t1="North Fangorn" t2="Limlight" />
     <connection t1="North Fangorn" t2="Derndingle" />
-    <connection t1="North Fangorn" t2="Treebeards Hill" />
+    <connection t1="North Fangorn" t2="Treebeard's Hill" />
     <connection t1="Wellinghall" t2="Derndingle" />
     <connection t1="Wellinghall" t2="South Fangorn" />
-    <connection t1="Derndingle" t2="Treebeards Hill" />
+    <connection t1="Derndingle" t2="Treebeard's Hill" />
     <connection t1="Derndingle" t2="South Fangorn" />
-    <connection t1="Treebeards Hill" t2="West Emnet" />
-    <connection t1="Treebeards Hill" t2="South Fangorn" />
+    <connection t1="Treebeard's Hill" t2="West Emnet" />
+    <connection t1="Treebeard's Hill" t2="South Fangorn" />
     <connection t1="South Fangorn" t2="Westfold" />
     <connection t1="Eryn Galen" t2="Greenwood the Great" />
     <connection t1="Eryn Galen" t2="East Bight" />
@@ -1630,7 +1630,7 @@
     <connection t1="sz Baranduin 1" t2="Brandywine North Bank" />
     <connection t1="sz Baranduin 1" t2="Baranduin South Bank" />
     <connection t1="West Lone Lands" t2="East-West Road" />
-    <connection t1="East Rhovanion" t2="Lands of the Balcoth" />
+    <connection t1="East Rhovanion" t2="Lands of the Balchoth" />
     <connection t1="Midgewater" t2="Amon Sûl" />
     <connection t1="Midgewater" t2="East-West Road" />
     <connection t1="Dead Marshes" t2="North Ithilien" />
@@ -5853,7 +5853,7 @@
       <option name="unitProduction" value="0" />
       <option name="territoryEffect" value="river" />
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Helms Deep" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Helm's Deep" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1" />
       <option name="unitProduction" value="0" />
       <option name="territoryEffect" value="plains" />
@@ -6173,7 +6173,7 @@
       <option name="unitProduction" value="0" />
       <option name="territoryEffect" value="plains" />
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Lands of the Balcoth" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Lands of the Balchoth" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3" />
       <option name="unitProduction" value="0" />
       <option name="territoryEffect" value="plains" />
@@ -6199,7 +6199,7 @@
       <option name="unitProduction" value="0" />
       <option name="territoryEffect" value="forest" />
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Treebeards Hill" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Treebeard's Hill" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1" />
       <option name="unitProduction" value="0" />
       <option name="territoryEffect" value="hill" />
@@ -7928,7 +7928,7 @@
       <territoryOwner territory="Eastfold" owner="Rohan" />
       <territoryOwner territory="Entwade" owner="Rohan" />
       <territoryOwner territory="Snowbourn" owner="Rohan" />
-      <territoryOwner territory="Helms Deep" owner="Rohan" />
+      <territoryOwner territory="Helm's Deep" owner="Rohan" />
       <territoryOwner territory="West Emnet" owner="Rohan" />
       <territoryOwner territory="Westfold" owner="Rohan" />
       <territoryOwner territory="Adorn" owner="Rohan" />
@@ -7989,12 +7989,12 @@
       <territoryOwner territory="Lands of Dorwinion" owner="Rhun" />
       <territoryOwner territory="Dorwinion" owner="Rhun" />
       <territoryOwner territory="South Rhûn" owner="Rhun" />
-      <territoryOwner territory="Lands of the Balcoth" owner="Rhun" />
+      <territoryOwner territory="Lands of the Balchoth" owner="Rhun" />
       <territoryOwner territory="Mountains of Rhûn" owner="Rhun" />
       <territoryOwner territory="North Fangorn" owner="Lorien" />
       <territoryOwner territory="Wellinghall" owner="Lorien" />
       <territoryOwner territory="Derndingle" owner="Lorien" />
-      <territoryOwner territory="Treebeards Hill" owner="Lorien" />
+      <territoryOwner territory="Treebeard's Hill" owner="Lorien" />
       <territoryOwner territory="South Fangorn" owner="Lorien" />
       <territoryOwner territory="Eryn Galen" owner="WoodlandRealm" />
       <territoryOwner territory="North Woodland Realm" owner="WoodlandRealm" />
@@ -8436,7 +8436,7 @@
       <unitPlacement unitType="spearman" territory="Dorwinion" quantity="2" owner="Rhun" />
       <unitPlacement unitType="easterling_cavalry" territory="Dorwinion" quantity="2" owner="Rhun" />
       <unitPlacement unitType="trebuchet" territory="Dorwinion" quantity="1" owner="Rhun" />
-      <unitPlacement unitType="balchoth_tribesman" territory="Lands of the Balcoth" quantity="3" owner="Rhun" />
+      <unitPlacement unitType="balchoth_tribesman" territory="Lands of the Balchoth" quantity="3" owner="Rhun" />
       <unitPlacement unitType="balchoth_tribesman" territory="Mountains of Rhûn" quantity="1" owner="Rhun" />
       <unitPlacement unitType="spearman" territory="Mountains of Rhûn" quantity="1" owner="Rhun" />
       <unitPlacement unitType="huorn" territory="North Fangorn" quantity="1" owner="Lorien" />
