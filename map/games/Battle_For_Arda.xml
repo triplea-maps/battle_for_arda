@@ -3397,6 +3397,7 @@
       <option name="damageableAA" value="true" />
       <option name="maxAAattacks" value="4" />
       <option name="maxRoundsAA" value="1" />
+      <option name="tuv" value="36" />	    
     </attachment>
     <attachment name="unitAttachment" attachTo="wizard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="transportCost" value="1" />
