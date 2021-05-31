@@ -1,0 +1,3 @@
+map_name: battle_for_arda
+games:
+- {game_name: Middle Earth - Battle for Arda, file_name: Battle_For_Arda.xml}
