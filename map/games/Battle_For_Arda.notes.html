@@ -1,0 +1,210 @@
+<html>
+	<body align="center">
+		<div style="text-align: center">
+			<table border="1" bgcolor="3D3D99" align="center">
+				<tr>
+					<th style="font-size:140%;000000">====================<br>Middle Earth<br>The Battle For Arda<br>====================</th>
+				</tr>
+			</table>
+		</div>
+		<h1>Map options</h1>
+		<ul>
+			<li><b>Free For All:</b> (Default OFF) Game is free for all, every faction is at war with every other. Can lead to fun games against AI, but otherwise not recommended.</li>
+			<li><b>Fortification Protects Against Targeted Attacks:</b> (Default ON) If turned on, any fortification (<i>fortress</i>, <i>wall</i>, <i>ancient tower</i>, <i>ancient wall</i> and also <i>war wagon</i>) present in a battle will prevent enemy <i>charge</i>, <i>flank</i> and <i>trample</i> targeted attacks. Other types of targeted attacks still fire. (Including <i>formation</i>. This is due to the way the engine handles targeted attacks. It may be fixed in the future.)</li>
+			<li><b>All Units Blitz:</b> (Default OFF) All mobile land combat units get the Blitz ability, meaning that they don't have to stop at the first conquered territory if taken without a battle.</li>
+			<li><b>Mountains Restrict Movement:</b> (Default ON) If turned off, then all units can enter <i>mountains</i>, whether or not they have the <i>mountaineer</i> ability.</li>
+			<li><b>Unlimited Unique Units:</b> (Default OFF) Controls whether or not <i>wizards</i>, <i>nazgûl</i>, <i>winged nazgûl</i>, <i>balrogs</i> and <i>oathbreakers</i> can be built - these units were in very limited supply in the lore.</li>			
+			<li><b>Buildable Fortress:</b> (Default OFF) If turned on, <i>fortresses</i> can be built by factions who can be plausibly assumed to have posessed the skill and technology required to construct fortresses in the lore.</li>
+			<li><b>Sea Units:</b> (Default ON) If turned off, naval units are entirely removed from the game.</li>
+		</ul>
+		
+		<h1>Victory</h1>
+		<p>Evil achieves victory by controlling all Evil capitals and at least 4 Good capitals. Good achieves victory by controlling all Good capitals and at least 3 Evil capitals. Practically, the game will be over long before this happens in most cases.</p>
+		<p>Aside from counting towards victory, capitals have no special role. (You keep your PUs, can still collect PUs, can produce, etc.)</p>
+		
+		<h1>Placement</h1>
+		<p>Units can usually only be placed on settlements. Settlements can produce units without the need for factories up to the Unit Production value of the territory, a number represented by an anvil on the map. Unit Production value is 8 for capitals, 5 for other major settlements, 3 otherwise. <i>Fortress</i> and <i>ancient tower</i> units can also produce 1 unit outside of settlements. Sea-going naval units (<i>dromunds</i> and <i>black ships</i>) can be placed on water territories next to settlements.</p>
+		<p>Some units ignore regular placement rules (constructions). <i>Fortresses</i> can be placed anywhere, but only 1 <i>ancient tower</i> or <i>fortress</i> can be present on a territory at a time. <i>Walls</i> can be placed in settlements, or on territories with a <i>fortress</i> or <i>ancient tower</i>. Only 1 can be placed per territory per turn. Rivercraft (<i>rafts</i> and <i>swan-boats</i>) can be placed on major rivers next to any owned territory without limits. Placement of these constructions is independent of other units, so none of them count towards the Unit Production value of the settlements.</p>
+
+		<h1>Movement</h1>
+
+		<h2>Land</h2>
+		<p>Land units have a movement of 2 or greater, but no land unit can Blitz. Most land units can't enter <i>mountains</i> - only those with the <i>mountaineer</i> ability can. <i>Fortresses</i>, <i>ancient towers</i>, <i>walls</i> and <i>ancient walls</i> can't move.</p>
+
+		<h2>Air</h2>
+		<p>Air units don't need to land on friendly territory - they can end their turn over recently conquered, enemy owned or water territories. They can use up all of their movement to get to battle. All air units can fly over <i>mountains</i>.</p>
+
+		<h2>Water</h2>
+		<p>Sea-going naval units (<i>dromunds</i> and <i>black ships</i>) can enter both <i>seas</i> and <i>major rivers</i>, while rivercraft can only enter (and be placed on) the latter. The Belegaer, the <i>ocean</i> is entirely impassable to units.</p>
+		<p>Units can move along rivers through bridges, fords and settlements, but enemy control of those territories blocks passage to naval units. An exception is the territory <i>Falls of Rauros</i>, which is a waterfall and as such impassable.</p>
+		
+		<h1>Combat</h1>
+		<p>Battles start with 1 round of air combat, in which air units participate with their <i>air attack</i> and <i>air defense</i>. Then all targeted attacks fire, followed by the removal of casualties of those attacks. After the targeted attacks starts the regular combat.</p>
+		<p>In subsequent battle rounds there is no air combat, and not every type of targeted attack fires (see the descriptions below to see which type does or does not fire in battle rounds after the first). After 10 battle rounds in total, the battle is over. This limit is necessary to avoid endless battles (it's possible that neither side has attack/defense power in a battle).</p>
+		
+		<h2>Targeted Attacks</h2>
+		<p>Targeted attacks are special types of combat maneuvers (like cavalry charge or siege bombardment) that your units can perform against specific types of enemies. Targeted attacks work similarly to regular attacks: a dice is rolled for each attack, and if the roll is a success, the enemy must select a casualty. Targeted attacks, however, have a limited set of targets, and casualties must be selected from among those units (e.g. <i>walls</i> or <i>fortresses</i>, in the case of <i>siege</i>). In some cases this allows you to target stronger units directly, without having to clear weaker units first.</p>
+		<ul>
+			<li><b>Charge:</b> Some cavalry units can perform a charge against enemy units with <i>infantry</i> type. Fires in the first battle round only, and only when attacking. Will not fire if enemy has <i>fortifications</i> present (unless the respective map option is turned off).</li>
+			<li><b>Flank:</b> Some units can try to outflank the battle line of the enemy, attacking the vulnerable <i>ranged infantry</i> and <i>siege engines</i> directly. Will not fire if enemy has <i>fortifications</i> present (unless the respective map option is turned off).</li>
+			<li><b>Trample:</b> Massive units enter the battlefield by simply trampling over the enemy army. Targets both <i>infantry</i> and <i>cavalry</i>, fires in the first battle round only, and only when attacking. Will not fire if enemy has <i>fortifications</i> present (unless the respective map option is turned off).</li>
+			<li><b>Formation:</b> Heavy infantry in closed formation (especially if armed with spears or pikes) can effectively stop cavalry charges. Targets are units performing a <i>charge</i> special attack. Fires in the first battle round only, and only when defending. At most 1 unit can fire per target (one charging cavalry can only try to get impaled on one spearwall at a time), so if you have more units with <i>formation</i> than there are enemy units with <i>charge</i>, only a part of your units will fire.</li>
+			<li><b>AntiAir:</b> Archers can try to shoot down attacking enemy air units. Only works when defending.</li>
+			<li><b>Siege:</b> Some units, like <i>siege engines</i> or <i>ents</i>, can rapidly dismantle defensive buildings: <i>walls</i> and <i>fortresses</i>. Ancient fortifications are, however, impregnable to anything the Third Age could come up with. Fires only when attacking, and in the first battle round only. Casualties die instantly, regardless of hitpoints. </li>
+			<li><b>Duel:</b> Powerful beings, like Maiar or the Nazgûl, fight their own divine magic-duel during the battle. Targets are other units with <i>duel</i> targeted attack. Casualties die instantly, regardless of hitpoints. Watch out for this, your most powerful units can easily get killed by this ability.</li>
+		</ul>
+		
+		<h2>Support Types</h2>
+		<p>Units can give support to other allied units - or hinder enemy units (negative support). For example, some units can give <i>ranged</i> support to <i>melee</i> units, others can spread <i>terror</i> and hopelessness among the ranks of the enemy. Different types of support affect different types of units. A single unit can only be affected once by each support type, but different support types do stack (so, for example, a single unit can be affected both by <i>leadership</i> and <i>ranged</i> support, but not two instances of <i>leadership</i>). </p>
+		<ul>
+			<li><b>Ranged:</b> Gives power to allied <i>melee</i> units. Works only when attacking.</li>
+			<li><b>Armor:</b> Takes away power from enemy <i>melee</i> units.</li>
+			<li><b>Shield:</b> Takes away power from enemy <i>ranged</i> units. (<i>Ranged</i> unit type, not to be confused with the identically named <i>ranged</i> support type. For example, units of the <i>siege engine</i> type can give <i>ranged</i> support, too.)</li>
+			<li><b>Web:</b> Takes away power from enemy <i>melee</i> units. Works only when defending.</li>
+			<li><b>Leadership:</b> Gives power to most allied units, except: <i>siege engines</i>, <i>fortifications</i> and <i>ships</i>.</li>
+			<li><b>Terror:</b> Takes away power from most enemy units, except: <i>unseen</i> units (Elves, mostly), <i>siege engines</i>, <i>fortifications</i> and <i>ships</i>.</li>
+			<li><b>Battlements (bonus):</b> Gives power to allied infantry. Works only when defending.</li>
+			<li><b>Battlements (penalty):</b> Takes away power from most enemy units, except: <i>flying</i> units, <i>siege engines</i>, <i>fortifications</i> and <i>ships</i>.</li>
+		</ul>
+		
+		<h2>Terrain Preference</h2>
+		<p>Units have a so-called "Terrain Preference Category", which determines how their power changes on terrain like <i>forest</i> or <i>settlements</i>. Effects from multiple terrain stack (so, for example, units in <i>Cerin Amroth</i> will have their power changed by bonuses or penalties from <i>forest</i>, <i>hills</i> and <i>settlement</i> at the same time). Terrain tends to favor the defender, except <i>plains</i>, which favors the attacker.</p>
+		<ul>
+			<li><b>Open</b> <i>(Prefers open terrain)</i>: Usually <i>cavalry</i>, they get a massive attack bonus on plains, but are bad in terrain where there is limited open space (<i>forest</i>, <i>caves</i>, <i>mountains</i>).</li>
+			<li><b>Wilderness</b> <i>(Prefers wilderness)</i>: Usually creatures, they get bonuses in the wilderness-related terrain (<i>mountains</i>, <i>hills</i>, <i>forest</i>, <i>marsh</i>), but get a severe penalty in the strategically important <i>settlements</i>.</li>
+			<li><b>Levy</b> <i>(Levy)</i>: Prefer to fight for their homes near their homes. Slightly disprefer wilderness-related terrain. </li>
+			<li><b>Woodland</b> <i>(Prefers woodlands)</i>: Usually Elves, they prefer <i>forest</i> over <i>mountains</i> or <i>caves</i>.</li>
+			<li><b>Dwarven</b> <i>(Prefers rocks)</i>: Dwarves get bonuses in <i>mountains</i>, <i>hills</i> and <i>caves</i>, but due their stature they are ill-suited to crossing <i>rivers</i> or <i>marshes</i>. They also dislike <i>forests</i>.</li>
+			<li><b>Ambusher</b> <i>(Ambusher)</i>: Large defensive bonuses on terrain with available cover.</li>
+			<li><b>Relentless</b> <i>(Relentless)</i>: They keep attacking, no matter how disadvantageous their position may seem. They get no attack penalties even on the hardest terrain; what's more, they get an attack bonus against <i>settlements</i>.</li>
+			<li><b>Unyielding</b> <i>(Unyielding)</i>: They will never let defensive positions fall to the hands of the enemy. Massive defensive bonus in <i>settlements</i>, smaller defensive bonus in several other terrain types.</li>
+			<li><b>Flying</b> <i>(Prefers open skies)</i>: Flying units can' fight effectively when there isn't enough room to fly: in <i>forests</i> and <i>caves</i>.</li>
+			<li><b>Fortification</b> <i>(Fortification)</i>: Defensive buildings are way more effective in <i>settlements</i>, <i>hills</i>, <i>mountains</i> and <i>caves</i>.</li>
+		</ul>
+		
+		<p>For the exact numbers involved, consult the table below.
+		
+		<table border="1"bgcolor="757780">
+		<tbody>
+		<tr>
+		<td>&nbsp;</td>
+		<td><b>Levy</b></td>
+		<td><b>Open</b></td>
+		<td><b>Wilderness</b></td>
+		<td><b>Woodland</b></td>
+		<td><b>Dwarven</b></td>
+		<td><b>Ambusher</b></td>
+		<td><b>Relentless</b></td>
+		<td><b>Unyielding</b></td>
+		<td><b>Flying</b></td>
+		<td><b>Fortification</b></td>
+		</tr>
+		<tr>
+		<td><b>Mountain</b></td>
+		<td>-1 | 0</td>
+		<td>-2 | -1</td>
+		<td>1 | 2</td>
+		<td>-2 | -1</td>
+		<td>1 | 2</td>
+		<td>0 | 2</td>
+		<td>0 | 0</td>
+		<td>0 | 2</td>
+		<td>1 | 1</td>
+		<td>0 | 3</td>
+		</tr>
+		<tr>
+		<td><b>Hill</b></td>
+		<td>-1 | 0</td>
+		<td>-1 | 0</td>
+		<td>1 | 1</td>
+		<td>-1 | 0</td>
+		<td>1 | 2</td>
+		<td>0 | 2</td>
+		<td>0 | 0</td>
+		<td>0 | 1</td>
+		<td>1 | 1</td>
+		<td>0 | 3</td>
+		</tr>
+		<tr>
+		<td><b>Cave</b></td>
+		<td>-1 | 0</td>
+		<td>-2 | -1</td>
+		<td>-1 | 0</td>
+		<td>-2 | -1</td>
+		<td>1 | 2</td>
+		<td>0 | 2</td>
+		<td>0 | 0</td>
+		<td>0 | 1</td>
+		<td>-2 | -2</td>
+		<td>0 | 3</td>
+		</tr>
+		<tr>
+		<td><b>Marsh</b></td>
+		<td>-1 | 0</td>
+		<td>-1 | 0</td>
+		<td>1 | 1</td>
+		<td>0 | 1</td>
+		<td>-2 | -1</td>
+		<td>-1 | 0</td>
+		<td>0 | 0</td>
+		<td>-1 | 0</td>
+		<td>1 | 1</td>
+		<td>0 | 0</td>
+		</tr>
+		<tr>
+		<td><b>Forest</b></td>
+		<td>-1 | 0</td>
+		<td>-2 | -1</td>
+		<td>1 | 2</td>
+		<td>2 | 3</td>
+		<td>-2 | -1</td>
+		<td>0 | 2</td>
+		<td>0 | 0</td>
+		<td>-1 | 0</td>
+		<td>-2 | -2</td>
+		<td>0 | 0</td>
+		</tr>
+		<tr>
+		<td><b>River</b></td>
+		<td>0 | 1</td>
+		<td>-1 | 0</td>
+		<td>-1 | 0</td>
+		<td>-1 | 0</td>
+		<td>-2 | 0</td>
+		<td>-1 | 0</td>
+		<td>0 | 0</td>
+		<td>0 | 1</td>
+		<td>0 | 0</td>
+		<td>0 | 0</td>
+		</tr>
+		<tr>
+		<td><b>Settlement</b></td>
+		<td>0 | 1</td>
+		<td>-1 | 0</td>
+		<td>-2 | -2</td>
+		<td>0 | 1</td>
+		<td>0 | 1</td>
+		<td>-1 | 0</td>
+		<td>2 | 0</td>
+		<td>0 | 3</td>
+		<td>0 | 0</td>
+		<td>0 | 3</td>
+		</tr>
+		<tr>
+		<td><b>Plains</b></td>
+		<td>1 | 0</td>
+		<td>3 | 1</td>
+		<td>-1 | -1</td>
+		<td>0 | -1</td>
+		<td>0 | -1</td>
+		<td>0 | -1</td>
+		<td>0 | -1</td>
+		<td>0 | -1</td>
+		<td>0 | 0</td>
+		<td>0 |0</td>
+		</tr>
+		</tbody>
+		</table>
+
+	</body>
+</html>
