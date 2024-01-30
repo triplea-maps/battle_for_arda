@@ -3,7 +3,7 @@
 		<div style="text-align: center">
 			<table border="1" bgcolor="3D3D99" align="center">
 				<tr>
-					<th style="font-size:140%;000000">====================<br>Middle Earth<br>The Battle For Arda<br>====================</th>
+					<th style="font-size:140%;000000">====================<br>Middle Earth<br>Battle For Arda (v2)<br>====================</th>
 				</tr>
 			</table>
 		</div>
@@ -13,7 +13,7 @@
 			<li><b>Fortification Protects Against Targeted Attacks:</b> (Default ON) If turned on, any fortification (<i>fortress</i>, <i>wall</i>, <i>ancient tower</i>, <i>ancient wall</i> and also <i>war wagon</i>) present in a battle will prevent enemy <i>charge</i>, <i>flank</i> and <i>trample</i> targeted attacks. Other types of targeted attacks still fire. (Including <i>formation</i>. This is due to the way the engine handles targeted attacks. It may be fixed in the future.)</li>
 			<li><b>All Units Blitz:</b> (Default OFF) All mobile land combat units get the Blitz ability, meaning that they don't have to stop at the first conquered territory if taken without a battle.</li>
 			<li><b>Mountains Restrict Movement:</b> (Default ON) If turned off, then all units can enter <i>mountains</i>, whether or not they have the <i>mountaineer</i> ability.</li>
-			<li><b>Unlimited Unique Units:</b> (Default OFF) Controls whether or not <i>wizards</i>, <i>nazgûl</i>, <i>winged nazgûl</i>, <i>balrogs</i> and <i>oathbreakers</i> can be built - these units were in very limited supply in the lore.</li>			
+			<li><b>Unlimited Unique Units:</b> (Default ON) Controls whether or not <i>wizards</i>, <i>nazgûl</i>, <i>winged nazgûl</i>, <i>balrogs</i> and <i>oathbreakers</i> can be built - these units were in very limited supply in the lore.</li>			
 			<li><b>Buildable Fortress:</b> (Default OFF) If turned on, <i>fortresses</i> can be built by factions who can be plausibly assumed to have posessed the skill and technology required to construct fortresses in the lore.</li>
 			<li><b>Sea Units:</b> (Default ON) If turned off, naval units are entirely removed from the game.</li>
 		</ul>
@@ -41,6 +41,10 @@
 		<h1>Combat</h1>
 		<p>Battles start with 1 round of air combat, in which air units participate with their <i>air attack</i> and <i>air defense</i>. Then all targeted attacks fire, followed by the removal of casualties of those attacks. After the targeted attacks starts the regular combat.</p>
 		<p>In subsequent battle rounds there is no air combat, and not every type of targeted attack fires (see the descriptions below to see which type does or does not fire in battle rounds after the first). After 10 battle rounds in total, the battle is over. This limit is necessary to avoid endless battles (it's possible that neither side has attack/defense power in a battle).</p>
+		
+		<h2>Fortifications</h2>
+		<p>If fortifications are present, <i>charge</i>, <i>flank</i> and <i>trample</i> targeted attacks can't be performed.</p>
+		<p><i>Ancient towers</i> and <i>ancient walls</i> can't be damaged or destroyed in any way. These units are captured along with the territory. <i>Fortresses</i> and <i>walls</i> can be damaged and destroyed like any other unit. <i>Walls</i>, if damaged, are repaired every turn. Damaged <i>fortresses</i> are repaired every combat round. </p>
 		
 		<h2>Targeted Attacks</h2>
 		<p>Targeted attacks are special types of combat maneuvers (like cavalry charge or siege bombardment) that your units can perform against specific types of enemies. Targeted attacks work similarly to regular attacks: a dice is rolled for each attack, and if the roll is a success, the enemy must select a casualty. Targeted attacks, however, have a limited set of targets, and casualties must be selected from among those units (e.g. <i>walls</i> or <i>fortresses</i>, in the case of <i>siege</i>). In some cases this allows you to target stronger units directly, without having to clear weaker units first.</p>
@@ -113,7 +117,7 @@
 		<td>0 | 3</td>
 		</tr>
 		<tr>
-		<td><b>Hill</b></td>
+		<td><b>Hill, Pass</b></td>
 		<td>-1 | 0</td>
 		<td>-1 | 0</td>
 		<td>1 | 1</td>
@@ -205,6 +209,10 @@
 		</tr>
 		</tbody>
 		</table>
-
+		
+		<h1>Credits</h1>
+		<p>Game design by <b>alkexr</b>. Visual style by <b>Hepps</b>. Contributions by <b>Frostion</b> and <b>redrum</b>.</p>
+		<p>The map was inspired by and incorporates elements of the original Middle Earth map by <b>Flanagan</b>.</p>
+		<p>Thanks to members of the TripleA community for their ideas, feedback and for their enthusiasm.</p>
 	</body>
 </html>

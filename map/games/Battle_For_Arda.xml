@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd"[]>
 <game>
-  <info name="Middle Earth - Battle for Arda" version="2.0.7" />
+  <info name="Middle Earth - Battle for Arda (v2)" version="2.1" />
   <loader javaClass="games.strategy.triplea.TripleA" />
-  <triplea minimumVersion="1.9" />
+  <triplea minimumVersion="2.5" />
   <diceSides value="12" />
   <map>
     <!-- Territory Definitions -->
@@ -1693,6 +1693,7 @@
     <connection t1="sz Lower Anduin 4" t2="sz Lower Anduin 3" />
     <connection t1="sz Lower Anduin 3" t2="sz Lower Anduin 2" />
     <connection t1="sz Lower Harnen" t2="sz Upper Harnen" />
+    <connection t1="sz Lower Anduin 4" t2="sz Upper Anduin 1" />
   </map>
   <resourceList>
     <resource name="PUs" />
@@ -2161,7 +2162,7 @@
       <result resourceOrUnit="man_at_arms" quantity="1" />
     </productionRule>
     <productionRule name="buy_ranger">
-      <cost resource="PUs" quantity="6" />
+      <cost resource="PUs" quantity="7" />
       <result resourceOrUnit="ranger" quantity="1" />
     </productionRule>
     <productionRule name="buy_tower_guard">
@@ -2253,7 +2254,7 @@
       <result resourceOrUnit="noldorin_warrior" quantity="1" />
     </productionRule>
     <productionRule name="buy_eagle">
-      <cost resource="PUs" quantity="24" />
+      <cost resource="PUs" quantity="32" />
       <result resourceOrUnit="eagle" quantity="1" />
     </productionRule>
     <productionRule name="buy_corsair">
@@ -2289,7 +2290,7 @@
       <result resourceOrUnit="scout" quantity="1" />
     </productionRule>
     <productionRule name="buy_pony_rider">
-      <cost resource="PUs" quantity="4" />
+      <cost resource="PUs" quantity="5" />
       <result resourceOrUnit="pony_rider" quantity="1" />
     </productionRule>
     <productionRule name="buy_dwarven_axethrower">
@@ -2357,7 +2358,7 @@
       <result resourceOrUnit="nazgul" quantity="1" />
     </productionRule>
     <productionRule name="buy_winged_nazgul">
-      <cost resource="PUs" quantity="30" />
+      <cost resource="PUs" quantity="36" />
       <result resourceOrUnit="winged_nazgul" quantity="1" />
     </productionRule>
     <productionRule name="buy_balrog">
@@ -2704,7 +2705,7 @@
     <attachment name="unitAttachment" attachTo="uruk_warrior" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="transportCost" value="1" />
       <option name="movement" value="3" />
-      <option name="attack" value="4" />
+      <option name="attack" value="5" />
       <option name="defense" value="3" />
     </attachment>
     <attachment name="unitAttachment" attachTo="beorning_warrior" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -2780,7 +2781,7 @@
       <option name="transportCost" value="1" />
       <option name="movement" value="2" />
       <option name="attack" value="1" />
-      <option name="defense" value="2" />
+      <option name="defense" value="1" />
     </attachment>
     <attachment name="unitAttachment" attachTo="barrow_wight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="transportCost" value="1" />
@@ -3351,7 +3352,7 @@
       <option name="attackRolls" value="2" />
       <option name="defense" value="4" />
       <option name="defenseRolls" value="2" />
-      <option name="whenHitPointsDamagedChangesInto" value="2:true:oliphaunt_hit2" />
+      <!--<option name="whenHitPointsDamagedChangesInto" value="2:true:oliphaunt_hit2" />-->
       <option name="targetsAA" value="dunlending_wildman:spearman:halforc:orc_marauder:goblin_stabber:riddermark_militia:uruk_pikeman:uruk_warrior:beorning_warrior:helming_warrior:balchoth_tribesman:dunadan_guard:barding_infantry:elven_warden:man_at_arms:oathbreaker:barrow_wight:corsair:black_numenorean:tower_guard:dwarven_axeman:dwarven_pikeman:dwarven_halberdier:noldorin_warrior:trollman:hobbit_archer:goblin_shooter:snaga_skirmisher:woodman:bowman:ranger:elven_hunter:galadhrim_longbowman:elven_archer:dwarven_axethrower:raider:variag_raider:pony_rider:scout:rohirric_scout:warg_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:warg_rider" />
       <option name="typeAA" value="trample" />
       <option name="attackAA" value="0" />
@@ -4508,7 +4509,6 @@
       <option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Rhun:WoodlandRealm" />
     </attachment>
     <attachment name="territoryEffectAttachment" attachTo="mountain" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
-      <option name="noBlitz" value="dunlending_wildman:spearman:halforc:orc_marauder:goblin_stabber:riddermark_militia:uruk_pikeman:uruk_warrior:beorning_warrior:helming_warrior:balchoth_tribesman:dunadan_guard:barding_infantry:elven_warden:man_at_arms:oathbreaker:barrow_wight:corsair:black_numenorean:tower_guard:dwarven_axeman:dwarven_pikeman:dwarven_halberdier:noldorin_warrior:trollman:hobbit_archer:goblin_shooter:snaga_skirmisher:woodman:bowman:ranger:elven_hunter:galadhrim_longbowman:elven_archer:dwarven_axethrower:raider:variag_raider:pony_rider:scout:rohirric_scout:warg_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:warg_rider:eagle:crebain:raven:bat:dragon:dragon_hit2:troll:olog_hai:spider:huorn:ent:oliphaunt:bear:oliphaunt_hit2:wizard:nazgul:winged_nazgul:balrog:factory:fire_of_orthanc:catapult:trebuchet:war_wagon:ancient_tower:fortress:ancient_wall:wall:raft:swan_boat:dromund:black_ship:none" />
       <option name="unitsNotAllowed" value="spearman:halforc:goblin_stabber:riddermark_militia:uruk_pikeman:uruk_warrior:dunadan_guard:barding_infantry:elven_warden:man_at_arms:oathbreaker:barrow_wight:corsair:black_numenorean:tower_guard:dwarven_pikeman:dwarven_halberdier:noldorin_warrior:hobbit_archer:goblin_shooter:woodman:bowman:galadhrim_longbowman:elven_archer:raider:variag_raider:pony_rider:scout:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:warg_rider:olog_hai:spider:oliphaunt:bear:oliphaunt_hit2:wizard:nazgul:balrog:factory:fire_of_orthanc:catapult:trebuchet:war_wagon:ancient_tower:fortress:ancient_wall:wall:raft:swan_boat:dromund:black_ship:none" />
       <option name="combatOffenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="-2" />
       <option name="combatDefenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="-1" />
@@ -4554,7 +4554,6 @@
       <option name="combatDefenseEffect" value="war_wagon:ancient_tower:fortress:ancient_wall:wall" count="3" />
     </attachment>
     <attachment name="territoryEffectAttachment" attachTo="cave" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
-      <option name="noBlitz" value="dunlending_wildman:spearman:halforc:orc_marauder:goblin_stabber:riddermark_militia:uruk_pikeman:uruk_warrior:beorning_warrior:helming_warrior:balchoth_tribesman:dunadan_guard:barding_infantry:elven_warden:man_at_arms:oathbreaker:barrow_wight:corsair:black_numenorean:tower_guard:dwarven_axeman:dwarven_pikeman:dwarven_halberdier:noldorin_warrior:trollman:hobbit_archer:goblin_shooter:snaga_skirmisher:woodman:bowman:ranger:elven_hunter:galadhrim_longbowman:elven_archer:dwarven_axethrower:raider:variag_raider:pony_rider:scout:rohirric_scout:warg_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:warg_rider:eagle:crebain:raven:bat:dragon:dragon_hit2:troll:olog_hai:spider:huorn:ent:oliphaunt:bear:oliphaunt_hit2:wizard:nazgul:winged_nazgul:balrog:factory:fire_of_orthanc:catapult:trebuchet:war_wagon:ancient_tower:fortress:ancient_wall:wall:raft:swan_boat:dromund:black_ship:none" />
       <option name="combatOffenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="-2" />
       <option name="combatDefenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="-1" />
       <option name="combatOffenseEffect" value="dunlending_wildman:beorning_warrior:snaga_skirmisher:scout:warg_scout:warg_rider:troll:olog_hai:bear" count="-1" />
@@ -4577,7 +4576,6 @@
       <option name="combatDefenseEffect" value="war_wagon:ancient_tower:fortress:ancient_wall:wall" count="3" />
     </attachment>
     <attachment name="territoryEffectAttachment" attachTo="pass" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
-      <option name="noBlitz" value="dunlending_wildman:spearman:halforc:orc_marauder:goblin_stabber:riddermark_militia:uruk_pikeman:uruk_warrior:beorning_warrior:helming_warrior:balchoth_tribesman:dunadan_guard:barding_infantry:elven_warden:man_at_arms:oathbreaker:barrow_wight:corsair:black_numenorean:tower_guard:dwarven_axeman:dwarven_pikeman:dwarven_halberdier:noldorin_warrior:trollman:hobbit_archer:goblin_shooter:snaga_skirmisher:woodman:bowman:ranger:elven_hunter:galadhrim_longbowman:elven_archer:dwarven_axethrower:raider:variag_raider:pony_rider:scout:rohirric_scout:warg_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:warg_rider:eagle:crebain:raven:bat:dragon:dragon_hit2:troll:olog_hai:spider:huorn:ent:oliphaunt:bear:oliphaunt_hit2:wizard:nazgul:winged_nazgul:balrog:factory:fire_of_orthanc:catapult:trebuchet:war_wagon:ancient_tower:fortress:ancient_wall:wall:raft:swan_boat:dromund:black_ship:none" />
       <option name="combatOffenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="-1" />
       <option name="combatDefenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="0" />
       <option name="combatOffenseEffect" value="dunlending_wildman:beorning_warrior:snaga_skirmisher:scout:warg_scout:warg_rider:troll:olog_hai:bear" count="1" />
@@ -4600,7 +4598,6 @@
       <option name="combatDefenseEffect" value="war_wagon:ancient_tower:fortress:ancient_wall:wall" count="3" />
     </attachment>
     <attachment name="territoryEffectAttachment" attachTo="marsh" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
-      <option name="noBlitz" value="dunlending_wildman:spearman:halforc:orc_marauder:goblin_stabber:riddermark_militia:uruk_pikeman:uruk_warrior:beorning_warrior:helming_warrior:balchoth_tribesman:dunadan_guard:barding_infantry:elven_warden:man_at_arms:oathbreaker:barrow_wight:corsair:black_numenorean:tower_guard:dwarven_axeman:dwarven_pikeman:dwarven_halberdier:noldorin_warrior:trollman:hobbit_archer:goblin_shooter:snaga_skirmisher:woodman:bowman:ranger:elven_hunter:galadhrim_longbowman:elven_archer:dwarven_axethrower:raider:variag_raider:pony_rider:scout:rohirric_scout:warg_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:warg_rider:eagle:crebain:raven:bat:dragon:dragon_hit2:troll:olog_hai:spider:huorn:ent:oliphaunt:bear:oliphaunt_hit2:wizard:nazgul:winged_nazgul:balrog:factory:fire_of_orthanc:catapult:trebuchet:war_wagon:ancient_tower:fortress:ancient_wall:wall:raft:swan_boat:dromund:black_ship:none" />
       <option name="combatOffenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="-1" />
       <option name="combatDefenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="0" />
       <option name="combatOffenseEffect" value="dunlending_wildman:beorning_warrior:snaga_skirmisher:scout:warg_scout:warg_rider:troll:olog_hai:bear" count="1" />
@@ -4645,7 +4642,6 @@
       <option name="combatDefenseEffect" value="war_wagon:ancient_tower:fortress:ancient_wall:wall" count="0" />
     </attachment>
     <attachment name="territoryEffectAttachment" attachTo="river" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
-      <option name="noBlitz" value="dunlending_wildman:spearman:halforc:orc_marauder:goblin_stabber:riddermark_militia:uruk_pikeman:uruk_warrior:beorning_warrior:helming_warrior:balchoth_tribesman:dunadan_guard:barding_infantry:elven_warden:man_at_arms:oathbreaker:barrow_wight:corsair:black_numenorean:tower_guard:dwarven_axeman:dwarven_pikeman:dwarven_halberdier:noldorin_warrior:trollman:hobbit_archer:goblin_shooter:snaga_skirmisher:woodman:bowman:ranger:elven_hunter:galadhrim_longbowman:elven_archer:dwarven_axethrower:raider:variag_raider:pony_rider:scout:rohirric_scout:warg_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:warg_rider:eagle:crebain:raven:bat:dragon:dragon_hit2:troll:olog_hai:spider:huorn:ent:oliphaunt:bear:oliphaunt_hit2:wizard:nazgul:winged_nazgul:balrog:factory:fire_of_orthanc:catapult:trebuchet:war_wagon:ancient_tower:fortress:ancient_wall:wall:raft:swan_boat:dromund:black_ship:none" />
       <option name="combatOffenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="-1" />
       <option name="combatDefenseEffect" value="raider:variag_raider:rohirric_scout:elven_cavalry:easterling_cavalry:eotheod_cavalry:eorling_rider:dunadan_lancer:chariot:wainrider_chieftain:swan_knight:kings_company:oliphaunt:oliphaunt_hit2" count="0" />
       <option name="combatOffenseEffect" value="dunlending_wildman:beorning_warrior:snaga_skirmisher:scout:warg_scout:warg_rider:troll:olog_hai:bear" count="-1" />
@@ -6052,7 +6048,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Fornost" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4" />
-      <option name="unitProduction" value="5" />
+      <option name="unitProduction" value="3" />
       <option name="territoryEffect" value="hill" />
       <option name="territoryEffect" value="settlement" />
     </attachment>
@@ -6135,13 +6131,13 @@
       <option name="territoryEffect" value="plains" />
     </attachment>
     <attachment name="territoryAttachment" attachTo="Dale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="4" />
+      <option name="production" value="6" />
       <option name="unitProduction" value="3" />
       <option name="territoryEffect" value="river" />
       <option name="territoryEffect" value="settlement" />
     </attachment>
     <attachment name="territoryAttachment" attachTo="Esgaroth" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="6" />
+      <option name="production" value="8" />
       <option name="unitProduction" value="8" />
       <option name="territoryEffect" value="river" />
       <option name="territoryEffect" value="settlement" />
@@ -6552,7 +6548,7 @@
       <option name="territoryEffect" value="river" />
     </attachment>
     <attachment name="territoryAttachment" attachTo="Lond Daer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="4" />
+      <option name="production" value="6" />
       <option name="unitProduction" value="3" />
       <option name="territoryEffect" value="settlement" />
     </attachment>
@@ -6882,6 +6878,14 @@
     <attachment name="canalAttachmentMithlond" attachTo="sz Gulf of Lhûn" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Mithlond" />
       <option name="landTerritories" value="Mithlond" />
+    </attachment>
+	<attachment name="canalAttachmentRauros" attachTo="sz Lower Anduin 4" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Falls of Rauros" />
+      <option name="landTerritories" value="Falls of Rauros" />
+    </attachment>
+    <attachment name="canalAttachmentRauros" attachTo="sz Upper Anduin 1" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Falls of Rauros" />
+      <option name="landTerritories" value="Falls of Rauros" />
     </attachment>
     <!--CAPITAL CONDITIONS-->
     <attachment name="conditionAttachment_DwarvesCapital" attachTo="Dwarves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
@@ -7970,6 +7974,8 @@
       <territoryOwner territory="Fornost" owner="Arnor" />
       <territoryOwner territory="East Angmar" owner="Angmar" />
       <territoryOwner territory="Ettendales" owner="Angmar" />
+      <territoryOwner territory="East Forochel Coast" owner="Angmar" />
+      <territoryOwner territory="West Forochel Coast" owner="Angmar" />
       <territoryOwner territory="West Mountains of Angmar" owner="Angmar" />
       <territoryOwner territory="West Angmar" owner="Angmar" />
       <territoryOwner territory="Hoarwell" owner="Angmar" />
@@ -8094,22 +8100,18 @@
       <unitPlacement unitType="scout" territory="Far Downs" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="factory" territory="Michel Delving" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="hobbit_archer" territory="Michel Delving" quantity="1" owner="Freefolk" />
-      <unitPlacement unitType="ranger" territory="Andrath" quantity="2" owner="Freefolk" />
+      <unitPlacement unitType="ranger" territory="Andrath" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="scout" territory="Andrath" quantity="1" owner="Freefolk" />
-      <unitPlacement unitType="pony_rider" territory="Brandywine Bridge" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="factory" territory="Archet" quantity="1" owner="Freefolk" />
-      <unitPlacement unitType="spearman" territory="Archet" quantity="2" owner="Freefolk" />
+      <unitPlacement unitType="spearman" territory="Archet" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="wall" territory="Archet" quantity="2" owner="Freefolk" />
       <unitPlacement unitType="pony_rider" territory="Southfarthing" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="ranger" territory="Chetwood" quantity="1" owner="Freefolk" />
-      <unitPlacement unitType="hobbit_archer" territory="Old Winyards" quantity="1" owner="Freefolk" />
-      <unitPlacement unitType="pony_rider" territory="Old Winyards" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="hobbit_archer" territory="Buckland" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="factory" territory="Hobbiton" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="hobbit_archer" territory="Hobbiton" quantity="2" owner="Freefolk" />
       <unitPlacement unitType="pony_rider" territory="Hobbiton" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="ranger" territory="Bree Hill" quantity="1" owner="Freefolk" />
-      <unitPlacement unitType="scout" territory="Bree Hill" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="factory" territory="Tuckborough" quantity="1" owner="Freefolk" />
       <unitPlacement unitType="hobbit_archer" territory="Tuckborough" quantity="2" owner="Freefolk" />
       <unitPlacement unitType="snaga_skirmisher" territory="East Mirkwood" quantity="3" owner="DolGuldur" />
@@ -8152,6 +8154,7 @@
       <unitPlacement unitType="elven_cavalry" territory="The Angle" quantity="1" owner="HighElves" />
       <unitPlacement unitType="dunlending_wildman" territory="South Dunland" quantity="1" owner="Saruman" />
       <unitPlacement unitType="halforc" territory="Isen" quantity="1" owner="Saruman" />
+      <unitPlacement unitType="halforc" territory="Nan Curunír" quantity="3" owner="Saruman" />
       <unitPlacement unitType="uruk_warrior" territory="North-South Road" quantity="1" owner="Saruman" />
       <unitPlacement unitType="halforc" territory="North-South Road" quantity="1" owner="Saruman" />
       <unitPlacement unitType="dunlending_wildman" territory="North Dunland" quantity="2" owner="Saruman" />
@@ -8323,18 +8326,16 @@
       <unitPlacement unitType="fortress" territory="Hornburg" quantity="1" owner="Rohan" />
       <unitPlacement unitType="factory" territory="Hornburg" quantity="1" owner="Rohan" />
       <unitPlacement unitType="wall" territory="Hornburg" quantity="6" owner="Rohan" />
-      <unitPlacement unitType="riddermark_militia" territory="Hornburg" quantity="1" owner="Rohan" />
-      <unitPlacement unitType="helming_warrior" territory="Hornburg" quantity="3" owner="Rohan" />
-      <unitPlacement unitType="bowman" territory="Hornburg" quantity="2" owner="Rohan" />
+      <unitPlacement unitType="helming_warrior" territory="Hornburg" quantity="1" owner="Rohan" />
       <unitPlacement unitType="factory" territory="Edoras" quantity="1" owner="Rohan" />
       <unitPlacement unitType="wall" territory="Edoras" quantity="4" owner="Rohan" />
       <unitPlacement unitType="riddermark_militia" territory="Westfold" quantity="3" owner="Rohan" />
       <unitPlacement unitType="bowman" territory="Westfold" quantity="2" owner="Rohan" />
-      <unitPlacement unitType="kings_company" territory="Edoras" quantity="2" owner="Rohan" />
-      <unitPlacement unitType="eorling_rider" territory="Eastfold" quantity="1" owner="Rohan" />
+      <unitPlacement unitType="kings_company" territory="Edoras" quantity="1" owner="Rohan" />
+      <unitPlacement unitType="kings_company" territory="Folde" quantity="1" owner="Rohan" />
+      <unitPlacement unitType="eorling_rider" territory="Folde" quantity="3" owner="Rohan" />
       <unitPlacement unitType="riddermark_militia" territory="West Emnet" quantity="2" owner="Rohan" />
       <unitPlacement unitType="rohirric_scout" territory="West Emnet" quantity="1" owner="Rohan" />
-      <unitPlacement unitType="eorling_rider" territory="West Emnet" quantity="2" owner="Rohan" />
       <unitPlacement unitType="helming_warrior" territory="Westfold" quantity="1" owner="Rohan" />
       <unitPlacement unitType="rohirric_scout" territory="Adorn" quantity="1" owner="Rohan" />
       <unitPlacement unitType="factory" territory="Goblin Town" quantity="1" owner="Orcs" />
@@ -8397,6 +8398,9 @@
       <unitPlacement unitType="orc_marauder" territory="East Angmar" quantity="1" owner="Angmar" />
       <unitPlacement unitType="warg_rider" territory="East Angmar" quantity="2" owner="Angmar" />
       <unitPlacement unitType="troll" territory="Ettendales" quantity="1" owner="Angmar" />
+      <unitPlacement unitType="warg_rider" territory="East Forochel Coast" quantity="1" owner="Angmar" />
+      <unitPlacement unitType="warg_rider" territory="West Forochel Coast" quantity="2" owner="Angmar" />
+      <unitPlacement unitType="snaga_skirmisher" territory="West Forochel Coast" quantity="2" owner="Angmar" />
       <unitPlacement unitType="snaga_skirmisher" territory="West Mountains of Angmar" quantity="1" owner="Angmar" />
       <unitPlacement unitType="orc_marauder" territory="West Angmar" quantity="2" owner="Angmar" />
       <unitPlacement unitType="orc_marauder" territory="Hoarwell" quantity="1" owner="Angmar" />
@@ -8477,7 +8481,6 @@
       <unitPlacement unitType="bowman" territory="Tharbad" quantity="2" />
       <unitPlacement unitType="spearman" territory="Tharbad" quantity="2" />
       <unitPlacement unitType="scout" territory="North Undeep" quantity="1" />
-      <unitPlacement unitType="bowman" territory="East Forochel Coast" quantity="1" />
       <unitPlacement unitType="bowman" territory="Eryn Vorn" quantity="7" />
       <unitPlacement unitType="scout" territory="South Minhiriath" quantity="1" />
       <unitPlacement unitType="raft" territory="sz Greyflood 1" quantity="2" owner="Saruman" />
@@ -8494,7 +8497,6 @@
       <unitPlacement unitType="dromund" territory="sz Gulf of Lhûn" quantity="1" owner="HighElves" />
       <unitPlacement unitType="spearman" territory="North Minhiriath" quantity="1" />
       <unitPlacement unitType="scout" territory="North Minhiriath" quantity="1" />
-      <unitPlacement unitType="bowman" territory="West Forochel Coast" quantity="2" />
       <unitPlacement unitType="raft" territory="sz Baranduin 3" quantity="2" owner="Freefolk" />
       <unitPlacement unitType="raft" territory="sz Celduin 1" quantity="2" owner="Rhun" />
       <unitPlacement unitType="dromund" territory="sz Celduin 1" quantity="1" owner="Rhun" />
@@ -9081,7 +9083,7 @@
 		<div style="text-align: center">
 			<table border="1" bgcolor="3D3D99" align="center">
 				<tr>
-					<th style="font-size:140%;000000">====================<br>Middle Earth<br>The Battle For Arda<br>====================</th>
+					<th style="font-size:140%;000000">====================<br>Middle Earth<br>Battle For Arda (v2)<br>====================</th>
 				</tr>
 			</table>
 		</div>
@@ -9091,7 +9093,7 @@
 			<li><b>Fortification Protects Against Targeted Attacks:</b> (Default ON) If turned on, any fortification (<i>fortress</i>, <i>wall</i>, <i>ancient tower</i>, <i>ancient wall</i> and also <i>war wagon</i>) present in a battle will prevent enemy <i>charge</i>, <i>flank</i> and <i>trample</i> targeted attacks. Other types of targeted attacks still fire. (Including <i>formation</i>. This is due to the way the engine handles targeted attacks. It may be fixed in the future.)</li>
 			<li><b>All Units Blitz:</b> (Default OFF) All mobile land combat units get the Blitz ability, meaning that they don't have to stop at the first conquered territory if taken without a battle.</li>
 			<li><b>Mountains Restrict Movement:</b> (Default ON) If turned off, then all units can enter <i>mountains</i>, whether or not they have the <i>mountaineer</i> ability.</li>
-			<li><b>Unlimited Unique Units:</b> (Default OFF) Controls whether or not <i>wizards</i>, <i>nazgûl</i>, <i>winged nazgûl</i>, <i>balrogs</i> and <i>oathbreakers</i> can be built - these units were in very limited supply in the lore.</li>			
+			<li><b>Unlimited Unique Units:</b> (Default ON) Controls whether or not <i>wizards</i>, <i>nazgûl</i>, <i>winged nazgûl</i>, <i>balrogs</i> and <i>oathbreakers</i> can be built - these units were in very limited supply in the lore.</li>			
 			<li><b>Buildable Fortress:</b> (Default OFF) If turned on, <i>fortresses</i> can be built by factions who can be plausibly assumed to have posessed the skill and technology required to construct fortresses in the lore.</li>
 			<li><b>Sea Units:</b> (Default ON) If turned off, naval units are entirely removed from the game.</li>
 		</ul>
@@ -9119,6 +9121,10 @@
 		<h1>Combat</h1>
 		<p>Battles start with 1 round of air combat, in which air units participate with their <i>air attack</i> and <i>air defense</i>. Then all targeted attacks fire, followed by the removal of casualties of those attacks. After the targeted attacks starts the regular combat.</p>
 		<p>In subsequent battle rounds there is no air combat, and not every type of targeted attack fires (see the descriptions below to see which type does or does not fire in battle rounds after the first). After 10 battle rounds in total, the battle is over. This limit is necessary to avoid endless battles (it's possible that neither side has attack/defense power in a battle).</p>
+		
+		<h2>Fortifications</h2>
+		<p>If fortifications are present, <i>charge</i>, <i>flank</i> and <i>trample</i> targeted attacks can't be performed.</p>
+		<p><i>Ancient towers</i> and <i>ancient walls</i> can't be damaged or destroyed in any way. These units are captured along with the territory. <i>Fortresses</i> and <i>walls</i> can be damaged and destroyed like any other unit. <i>Walls</i>, if damaged, are repaired every turn. Damaged <i>fortresses</i> are repaired every combat round. </p>
 		
 		<h2>Targeted Attacks</h2>
 		<p>Targeted attacks are special types of combat maneuvers (like cavalry charge or siege bombardment) that your units can perform against specific types of enemies. Targeted attacks work similarly to regular attacks: a dice is rolled for each attack, and if the roll is a success, the enemy must select a casualty. Targeted attacks, however, have a limited set of targets, and casualties must be selected from among those units (e.g. <i>walls</i> or <i>fortresses</i>, in the case of <i>siege</i>). In some cases this allows you to target stronger units directly, without having to clear weaker units first.</p>
@@ -9191,7 +9197,7 @@
 		<td>0 | 3</td>
 		</tr>
 		<tr>
-		<td><b>Hill</b></td>
+		<td><b>Hill, Pass</b></td>
 		<td>-1 | 0</td>
 		<td>-1 | 0</td>
 		<td>1 | 1</td>
@@ -9283,7 +9289,11 @@
 		</tr>
 		</tbody>
 		</table>
-
+		
+		<h1>Credits</h1>
+		<p>Game design by <b>alkexr</b>. Visual style by <b>Hepps</b>. Contributions by <b>Frostion</b> and <b>redrum</b>.</p>
+		<p>The map was inspired by and incorporates elements of the original Middle Earth map by <b>Flanagan</b>.</p>
+		<p>Thanks to members of the TripleA community for their ideas, feedback and for their enthusiasm.</p>
 	</body>
 </html>
 						]]></value>
